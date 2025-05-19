@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56660e41-6852-4e44-90f6-a3d246eb63dc">
+  <name>MobileDMVersionService</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile DMVersion service</value>
+  </synonym>
+  <namespace>http://www.1c.ru/mobileDMVersionService</namespace>
+  <descriptorFileName>mobileDMVersionService.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="6488fb7a-ce0a-4846-9496-95ba433dda6a">
+    <name>GetVersion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get version</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetVersion</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+</mdclass:WebService>

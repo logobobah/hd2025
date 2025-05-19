@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edaf1854-5993-4021-bbec-168e0720bb83">
+  <producedTypes>
+    <objectType typeId="aca8daec-4bb9-4ec7-903e-977025ed4215" valueTypeId="7fab68bb-3f39-49dd-818d-ccec896c8b75"/>
+    <refType typeId="1a60b4bd-8cf2-4015-aa3f-d619647a527f" valueTypeId="d3a8841f-81f2-4307-80de-93ca970fd0aa"/>
+    <selectionType typeId="e7f0aef2-4ecb-41cc-ae09-b85ef5a7c289" valueTypeId="067edb55-dd95-4478-94b7-5b49d6db5569"/>
+    <listType typeId="02e0107f-e125-4c59-81ff-bf4134b5182e" valueTypeId="8f44467b-1e9e-4c65-8104-588638c34d52"/>
+    <managerType typeId="8d901e62-5871-4298-aecb-c4c4274350e0" valueTypeId="c2171e52-2621-4778-8aca-02752d520017"/>
+  </producedTypes>
+  <name>Теги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги (Классификация задач)</value>
+  </synonym>
+  <comment>Классификация задач</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Теги.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Классификация задач</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Теги.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Теги.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Теги.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Теги.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="0080aa8d-10be-4d6a-b287-f23f0de50518">
+    <name>Актуален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуален</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0443487a-b186-4b5e-a9ea-467352e1a8e4">
+    <name>Обязателен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязателен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установке флага система будет проверять обязательное указание хотя бы одного тега в задаче и при его отсутствии не будет записывать задачу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="52ac6bc7-68c7-4867-abdf-d52895519a61">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09f38790-ecaa-4b68-b741-acb8d4082268">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2613a0db-6b57-4251-82e3-14ae46131f3f">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12c94321-fa1c-4934-91f1-d551eaf9be1d">
+  <producedTypes>
+    <selectionType typeId="579a3173-b399-477f-a74d-b895c9cb7a18" valueTypeId="c23e28e2-2d78-458a-a6a4-0f29d7a4e6e8"/>
+    <listType typeId="f8894d2c-b8f6-4155-b0bb-de3457035a4a" valueTypeId="e451e21a-1137-4b4a-970a-fb1a0a83b1c5"/>
+    <managerType typeId="d1f0b06a-2194-4bf3-bf88-bc77832e72b4" valueTypeId="795ccbb8-56f9-4281-8cb1-eaad28630fb0"/>
+    <recordSetType typeId="32448947-6499-4cb7-b3e6-2edf20805a34" valueTypeId="341331a3-e9b1-434f-807d-48e715c4f469"/>
+    <recordKeyType typeId="e0a0b17e-d6af-4c7e-8cc9-3a0e0887f43e" valueTypeId="5179d267-b24f-49fa-b838-7fa5fdd5397a"/>
+    <recordType typeId="120f195b-d5d3-4b49-8a4b-a9153bdf8a4c" valueTypeId="09aacc89-73e1-489e-9479-6582f5443bc5"/>
+    <recordManagerType typeId="a8b05d81-3979-4611-87ea-b8d093b5b87b" valueTypeId="1e83c8d5-5487-4943-81c5-c2987e922d5c"/>
+  </producedTypes>
+  <name>ДатыЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты запрета изменения (загрузки) данных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДатыЗапретаИзменения.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ДатыЗапретаИзменения.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e11004d4-84e6-49b9-bd47-064b017ffc4f">
+    <name>ДатаЗапрета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запрета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата фактического запрета изменения данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="62ab9f18-e100-46f9-a1c7-636d538c44da">
+    <name>ОписаниеДатыЗапрета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание даты запрета</value>
+    </synonym>
+    <comment>Описание относительной даты запрета, используемое для вычисления даты запрета на текущую дату</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание относительной даты запрета, используемое для вычисления даты запрета на текущую дату</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="5cd609bc-aee3-4dc5-ad9a-73f0a29d84a0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Комментарий к отдельной настройке запрета по пользователю/группу пользователей</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к отдельной настройке запрета по пользователю/группе пользователей</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="fc0ab3d5-cda6-4457-9436-065297132a74">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Раздел дат запрета изменения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3c11b0dd-68c7-4b75-8139-4dbd5cf32909">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>Characteristic.РазделыДатЗапретаИзменения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект раздела дат запрета изменения (Организация, Касса ...)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d8d7da5-43b0-4f6f-a735-6d45241b30cf">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>DefinedType.АдресатЗапретаИзменения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресат запрета изменения:
+- пользователь,
+- группа пользователей,
+- внешний пользователь,
+- группа внешних пользователей,
+- план обмена (пустая ссылка на узел),
+- узел плана обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1b831b84-5561-4a07-bada-24d17e98b585">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e99f364-f1e9-4619-b5cb-dee2cd9cee4d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8e1dfbd-1de2-43e1-a233-e6a919b19eee">
+    <name>ДатыЗапретаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты запрета изменения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edfa701c-760d-4851-8bb5-0e77167afad6">
+    <name>РедактированиеДатыЗапрета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование даты запрета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4308e318-6ea4-4c59-bb5d-e8b599d2443c">
+    <name>ДатыЗапретаИзмененияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты запрета изменения данных</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Даты запрета добавления, изменения и удаления данных</value>
+    </toolTip>
+  </commands>
+  <commands uuid="cb15b961-75f9-465e-9833-7f3d010d1c81">
+    <name>ДатыЗапретаЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты запрета загрузки данных</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Даты запрета загрузки данных при обмене данными</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

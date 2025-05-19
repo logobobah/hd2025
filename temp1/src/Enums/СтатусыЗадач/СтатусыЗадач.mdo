@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3f1da48-4a6f-4b3b-b535-ac319260b1bd">
+  <producedTypes>
+    <refType typeId="5f76d34d-7b02-4858-a890-9bfe7c507032" valueTypeId="a983980b-80df-42ae-9df4-a8253cbbb6f4"/>
+    <listType typeId="73939764-d0dc-4f9d-9bcf-831109c3311b" valueTypeId="4ee04616-441d-48c0-86dd-4c3fb5163dab"/>
+    <managerType typeId="fadf1aee-b433-4dad-80ef-80278b98884c" valueTypeId="4046aa39-28a6-4155-97db-c61425f989d4"/>
+  </producedTypes>
+  <name>СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8bd3a47e-640a-45fd-8b50-f218eb1ebdce">
+    <name>ктНеобработана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecaaa5c1-1a7a-4ef1-a3b0-8f355da50eb9">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e44d58e1-ec80-4045-9f4f-8731433f888d">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f51ca39-1112-4f29-b395-066d76862c74">
+    <name>ктНаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="678da3f2-8e8d-47e5-be68-33317ceb2ad5">
+    <name>ктСогласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec29d799-45e5-45dd-9ee4-fb09625220b9">
+    <name>ВОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>В очереди</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8f573ac-c46e-44d9-b9bd-0b82fbbb41e4">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="101bb84d-2a8a-4f6f-8390-02ef94a883a2">
+    <name>Подтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f139448f-22c5-45cb-a679-7cedff3e1f41">
+    <name>Завершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ca00b0f-6b85-478c-a7e4-7be22effdcf3">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c18f116-77f4-4549-aead-458a43698cb9">
+  <name>DMX</name>
+  <synonym>
+    <key>ru</key>
+    <value>DMX</value>
+  </synonym>
+  <namespace>http://www.1c.ru/DMX</namespace>
+</mdclass:XDTOPackage>

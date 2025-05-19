@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9547daf6-8b60-4e91-a098-3a7b5e823e37">
+  <producedTypes>
+    <refType typeId="95c331f7-eba3-49a2-bfaf-44c678b40bb1" valueTypeId="bf890eac-97fe-4615-a5dc-a7e8d991e19a"/>
+    <listType typeId="5b516618-bd85-4c99-91bd-c4b5829de519" valueTypeId="78a8076a-2429-47e8-a0a5-fd7b8e0b1ef8"/>
+    <managerType typeId="c445b046-6847-4412-9c05-7bfc7e9fbc58" valueTypeId="01934585-d250-404a-b81a-93dd3917d878"/>
+  </producedTypes>
+  <name>СпособРедактированияТекстаПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ редактирования текста письма</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="01715cb8-8a10-4f63-b751-e6798157cb95">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f07aa51-a09b-485f-a8a2-b0448dc271e5">
+    <name>ПолеВвода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоперенос строк (для небольших писем)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab26087d-ae70-4255-a451-73662cb817ab">
+    <name>ПолеТекстовогоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не переносить строки (для больших писем)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc509f89-20b3-4e04-8c2c-ef10fc7ae69d">
+  <name>СинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных через универсальный формат зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Заказчики</types>
+    <types>DocumentObject.Трудозатраты</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСУЗ.СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

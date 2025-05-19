@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16c80d3e-925a-49ef-91ba-08246f7ddad4">
+  <producedTypes>
+    <selectionType typeId="1c66708a-8296-4c20-962c-754224afe116" valueTypeId="e48d9e3b-b2b0-44f1-89e6-8cc344d23630"/>
+    <listType typeId="9239bb6d-b91b-4abd-bc22-a6b9f9cbb720" valueTypeId="23b8b1bc-8620-434d-b8f0-f43ca58249b2"/>
+    <managerType typeId="d14794e9-92f5-42bf-9799-683500cd780a" valueTypeId="71f3b467-96b5-4613-9c81-b7e32d76b899"/>
+    <recordSetType typeId="9ff302b1-ebaf-4225-b369-b2b118c4b57f" valueTypeId="1b2fc5d6-5ae1-41bd-b09d-1d6fdcf56e02"/>
+    <recordKeyType typeId="d9521e98-1f36-41e8-9576-7a732f82dfb9" valueTypeId="2b6f500f-7062-4467-9d59-92757500b0f0"/>
+    <recordType typeId="5933c6ec-a927-4005-a9c1-249b3c7e989b" valueTypeId="58b70b67-2ba1-42c2-abbb-d33618dcc574"/>
+    <recordManagerType typeId="17a1da2c-b81e-432b-b054-29b9458d4a09" valueTypeId="272f643b-49ac-4243-8301-51f4573b1106"/>
+  </producedTypes>
+  <name>ПисьмаВеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Письма веток</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1effdedc-1e1e-42b9-82df-86d5e1d91f63">
+    <name>ВеткаПереписки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка переписки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВеткиПереписки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="b6513d4d-6fe5-4c12-a38e-03e686b39dec">
+    <name>Письмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

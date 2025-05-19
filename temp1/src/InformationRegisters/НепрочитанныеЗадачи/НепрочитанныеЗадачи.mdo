@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87205e68-466b-4436-bc1d-a2b6048db4d0">
+  <producedTypes>
+    <selectionType typeId="718e905d-90fe-46c3-bdc8-c6a2560c2249" valueTypeId="4b2e5ecb-337a-40f9-9ce1-267175c436dc"/>
+    <listType typeId="6dc69a27-c3d7-40fd-9b72-a4d2765ed309" valueTypeId="767660d6-9ff0-48dd-8f4a-04baceb9f045"/>
+    <managerType typeId="8a85fd14-9042-44d1-b172-58b2794cecfc" valueTypeId="53e31c5b-fb54-4d44-8023-6d42f8975816"/>
+    <recordSetType typeId="86cec190-dadd-435e-afba-20b30c736677" valueTypeId="95c1b13d-5643-4d9b-ab37-4dd321d35066"/>
+    <recordKeyType typeId="c95fca3c-1fea-4157-9a2d-32065707631e" valueTypeId="9cd96751-d93f-44bb-a1c7-106258162e4f"/>
+    <recordType typeId="34f178fa-340c-4804-863c-1de904d63a33" valueTypeId="27556a4e-c769-4016-b207-66cc5cfbce51"/>
+    <recordManagerType typeId="ffa99346-945c-4987-878e-31850cbd499a" valueTypeId="b2e4b4b1-d034-41c7-856c-4bfa0ed4f194"/>
+  </producedTypes>
+  <name>НепрочитанныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Непрочитанные задачи</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="211310c4-7106-4ebe-8e7e-adf8cd955de7">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1b3640cc-110b-45ea-ab71-18b9c7c5cd45">
+    <name>Непрочитана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непрочитана</value>
+    </synonym>
+    <comment>для упрощения формирования поля в ДС и условного оформления</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cfbcf6a4-4b06-44ca-931e-4ae98297dc28">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="452e4979-3f29-4f30-9ae8-a964c40ec321">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

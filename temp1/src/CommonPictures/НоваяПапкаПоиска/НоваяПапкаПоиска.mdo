@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f8066f-86b4-4766-b445-23fd2d3ee3e7">
+  <name>НоваяПапкаПоиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новая папка поиска</value>
+  </synonym>
+</mdclass:CommonPicture>

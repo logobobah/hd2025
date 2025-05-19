@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="074d7211-672d-437d-a888-3a7519190202">
+  <producedTypes>
+    <refType typeId="a649dfce-4734-462c-8a6c-6eb77b9d6098" valueTypeId="0a6ee3f9-5ed6-47ed-b815-a5eed97b34a7"/>
+    <listType typeId="9b3a0e99-b642-49dc-85d7-5c72e3d12ebe" valueTypeId="9133bf64-d072-4081-a58a-49a785e9dfb7"/>
+    <managerType typeId="48c35fa8-1f22-42e2-9b3d-c70cf51f81dd" valueTypeId="10628634-1a25-4d8c-b962-9fed7220709d"/>
+  </producedTypes>
+  <name>ТипыДанныхАдреснойКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных адресной книги</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="27ce2d1a-1fcd-4544-89a5-81850c305a21">
+    <name>Автогруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автогруппа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f188d742-ce4e-45a6-a8f4-db1eeabe4879">
+    <name>АдресСпискаРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес списка рассылки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ce09a9c-a837-4b82-8681-ea77f78ac5ba">
+    <name>ГруппаКонтактовПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа контактов пользователей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ebb3c13-efce-4975-b435-9f9c134bdd0e">
+    <name>ГруппаЛичныхАдресатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа личных адресатов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6c8f61d-54fe-4ae7-9b25-8cfff5137114">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44667f2a-8a4c-4a58-81a7-aae9e543b5fb">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d4893a0-a743-48c4-8ab3-69364f136767">
+    <name>ЛичныйАдресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный адресат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e10243a-bbda-4284-b0a0-9b01d1f4ce4c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ece278a-0d20-414c-a939-ceb89a543c0c">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0efdf85-c6ac-4990-9964-0ef11bb7e713">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac62ccf0-e13f-4ea5-8006-e551981cc585">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

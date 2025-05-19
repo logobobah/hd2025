@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34da8bec-7f1f-4549-a702-ca255228ec40">
+  <name>ФормаСекретов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма секретов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60fc3abe-c3d9-4fd3-bf8a-b2e9fede4a80">
+  <producedTypes>
+    <objectType typeId="5520c117-ce1b-4511-8574-f93bc1bdd8d0" valueTypeId="a420bb60-81d0-4214-a156-6f355480ba10"/>
+    <refType typeId="0c0b82eb-7499-4867-bd30-ca06804518b8" valueTypeId="14b5f5de-e443-4263-a2fd-1da556e3c6b9"/>
+    <selectionType typeId="610d856f-0bc2-4042-a498-74e15e40cb50" valueTypeId="30de1bde-6854-4a7d-9132-e53fdb1e1a7a"/>
+    <listType typeId="4877c1d6-eb0a-41af-a3f4-9b99e47cf89c" valueTypeId="8990e4ca-2e3b-4a28-99bb-0f4aecd525f2"/>
+    <managerType typeId="4cc619eb-af50-4ce9-a940-3d9c443217e9" valueTypeId="857f6aed-a330-4c1e-adcb-8973fc1f046e"/>
+  </producedTypes>
+  <name>ГруппыДоступаПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыДоступаПроекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыДоступаПроекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

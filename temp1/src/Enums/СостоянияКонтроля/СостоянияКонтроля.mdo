@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b00a46f-b314-4843-b8ee-5a7051db1250">
+  <producedTypes>
+    <refType typeId="12a5cfa8-8b4a-4c52-83a1-bfceafc46196" valueTypeId="df47b4e5-7053-4568-bb3c-f0615b16a53e"/>
+    <listType typeId="54f17df5-2015-4c70-a494-38f622645791" valueTypeId="3ff3bc57-50d5-4930-a1ac-8263ee15a2a9"/>
+    <managerType typeId="cdfb4aad-fb4c-4033-a918-98268a53a1a4" valueTypeId="c3e389d7-5c47-463b-ab91-96eecfecea66"/>
+  </producedTypes>
+  <name>СостоянияКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния контроля</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="117b95f5-7648-4f70-9e42-9ffd24af76b8">
+    <name>НаКонтроле</name>
+    <synonym>
+      <key>ru</key>
+      <value>На контроле</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e88b2a71-6704-496e-bb17-ddbb7e5098e3">
+    <name>СнятСКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с контроля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4324ef79-4f3a-4815-9b33-bd857a98a0cd">
+    <name>ПерепискаНаКонтроле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переписка на контроле</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e10aed7-47f0-4b13-ad0d-92adeb2bc142">
+    <name>ПерепискаСнятСКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переписка снят с контроля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5239b3bc-c79e-4c64-9c5a-e8f3f867e0d4">
+    <name>НаКонтролеНесколько</name>
+    <synonym>
+      <key>ru</key>
+      <value>На контроле несколько</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b7e7640-cc4b-450f-92aa-8f4c211c5fa3">
+    <name>СнятСКонтроляНесколько</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с контроля несколько</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a887dd14-7c00-4da6-a2d5-d126f17af0cb">
+    <name>СмешанноНесколько</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смешанно несколько</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

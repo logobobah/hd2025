@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7a4e8d7-0ed4-4f34-8a58-362c6c979bad">
+  <producedTypes>
+    <refType typeId="e0226874-bbe0-4527-bfe0-d54524a05110" valueTypeId="2f700208-6787-45dd-b2f1-fa187ba012ab"/>
+    <listType typeId="1fc7a7fb-d64e-4edc-a71f-748196ba31c1" valueTypeId="11d8d738-17a4-4d2f-9284-2ce559d5b75c"/>
+    <managerType typeId="f8e6b2f6-cf96-44ea-abc8-18ebe3ace45d" valueTypeId="8fde093e-048f-47ac-babb-5c2ad8aae6d9"/>
+  </producedTypes>
+  <name>ВидыДействийПриОбработкеИсходящихПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий при обработке исходящих писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6cbcbb9f-b1b4-421a-8db9-7c20af80d6ad">
+    <name>ПереместитьВУказаннуюПапку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенести в папку:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e8ba5e8-845c-4ade-a629-9a03a4020cd6">
+    <name>УстановитьУказанныйФлаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить флаг:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ade13fa0-0c02-49a4-92a0-12d70869798c">
+    <name>ПоместитьИсходноеПисьмоВУказаннуюПапку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенести исходное письмо в папку:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50f628d4-041b-45d5-ba39-e89ed990362e">
+    <name>ПрименитьКИсходномуПисьмуПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применить к исходному письму правила:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="790a3473-5dba-4c46-ad45-c6ede88482a5">
+    <name>ПереместитьВПапкуИсходногоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переместить в папку исходного письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a188667-4c44-40f5-a256-2ac481817be7">
+    <name>УстановитьУказанныйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить проект:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c12200d-5523-414e-9c54-b149b2f763d8">
+    <name>ОстановитьПроверкуДругихПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановить проверку всех следующих правил:</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4274b934-0443-4f9d-940e-f4b33fc72877">
+  <producedTypes>
+    <managerType typeId="85e7e8eb-52e8-4a1b-b5b2-02cf59d7d5a7" valueTypeId="c9d27cb0-3f86-4c9d-b458-5eabe9dd9310"/>
+    <valueManagerType typeId="6afc2fc4-3bc7-4abb-b663-6883be8b514d" valueTypeId="4ac9bebf-cfe6-4869-a136-bde802693748"/>
+    <valueKeyType typeId="0755c4da-c89b-51d2-9cd3-094cd735f479" valueTypeId="69214114-1e8e-59d7-a106-d9c62f0848ba"/>
+  </producedTypes>
+  <name>ИспользоватьДатыЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать даты запрета изменения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a0bf100-36f7-4ecf-9e8e-3b6167bdb01f">
+  <producedTypes>
+    <refType typeId="437a7315-f6c7-4a1a-aa9c-c7197718b693" valueTypeId="4c33bf29-95d4-42a9-a333-0ce51d273b53"/>
+    <listType typeId="b5d88c53-1533-400d-ab77-0e949b7bbeab" valueTypeId="7d4d6a50-74ce-4282-aa29-66f688300fe6"/>
+    <managerType typeId="cfa029e7-b7ab-4565-8edc-d760a7a0bb1f" valueTypeId="15bdb283-27a6-4c1e-963a-ebbcb63aa41d"/>
+  </producedTypes>
+  <name>АвтоматизацияВидыПолучателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды получателей (автоматизация)</value>
+  </synonym>
+  <comment>Для указания получателей уведомлений</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b926958e-415a-4444-b87b-b84ec2f6f494">
+    <name>ВыбратьИзБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрать из базы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="345b45e9-c618-4aeb-bae4-771626cfb501">
+    <name>РеквизитИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит источника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6121175-63a2-4ce6-b4c3-f8fce49559c8">
+    <name>УказатьВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указать вручную</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

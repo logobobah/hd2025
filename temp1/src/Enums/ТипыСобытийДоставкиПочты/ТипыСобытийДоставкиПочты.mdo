@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e10e0123-e4ad-4912-a7cd-ebd7c5bc453c">
+  <producedTypes>
+    <refType typeId="1ff1baf8-afd5-403b-b2ea-9ef1460511d7" valueTypeId="aae0bbcc-6147-4261-b9bd-77e02ca3c16b"/>
+    <listType typeId="e238fd3d-9eac-477e-b7e6-fdfde654c3ee" valueTypeId="56251063-9e46-4e57-b302-d839be8dbb9c"/>
+    <managerType typeId="2342c9c3-4048-43f2-b046-6d1823723b6c" valueTypeId="6e1047a1-226f-465a-84c1-673bf4d975eb"/>
+  </producedTypes>
+  <name>ТипыСобытийДоставкиПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы событий доставки почты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e71fa097-b140-4c57-ad9d-c8a772171dda">
+    <name>ЗавершениеСеансаОтправкиПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение сеанса отправки писем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81832e6a-970d-4428-b470-f0186e89a177">
+    <name>ЗавершениеСеансаПриемкиОтправкиПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение сеанса приемки отправки писем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="015ae798-439e-451e-bc9c-97ed6cd83b8e">
+    <name>ИнтерактивнаяОтправкаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерактивная отправка письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25440e1a-50c1-4ac5-9f99-b56d6a9df4fa">
+    <name>НачалоОтправкиПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало отправки письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b8fa766-09b8-412a-8413-0d0799e24a08">
+    <name>НачалоОтправкиПисьмаПоВнутреннейМаршрутизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало отправки письма по внутренней маршрутизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc8dc247-cb15-4d2c-a398-aded46bb53db">
+    <name>НачалоПолученияВходящихСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало получения входящих сообщений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96035e00-a808-4e50-adee-5ebdf9b9595a">
+    <name>НачалоПолученияИдентификаторовВходящихСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало получения идентификаторов входящих сообщений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd881866-bba0-4416-a35c-d779edc3d5d1">
+    <name>ЗавершениеСеансаПриемкиОтправкиПисемПоВнутреннейМаршрутизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение сеанса приемки отправки писем по внутренней маршрутизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33984e14-258b-4f78-a203-edce7dd1769d">
+    <name>НачалоСеансаПриемкиОтправкиПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало сеанса приемки отправки писем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="368fa149-f6c3-4830-9285-c1045aceab1a">
+    <name>НачалоСеансаПриемкиОтправкиПисемПоВнутреннейМаршрутизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало сеанса приемки отправки писем по внутренней маршрутизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58a90aed-e3b7-4df7-b261-6dcb8b37538c">
+    <name>НачалоУстановкиСоединенияИнтернетПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало установки соединения интернет почты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccef09d2-27c8-432c-b368-1ed12054ab9b">
+    <name>ОшибкаОтправкиПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка отправки письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b8dc4a7-fdf8-437b-8581-3b70a50c61fc">
+    <name>ОшибкаОтправкиПисьмаПоВнутреннейМаршрутизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка отправки письма по внутренней маршрутизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3a358d5-0c1d-404d-b87c-1893b0e3c03e">
+    <name>ОшибкаПолученияПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка получения письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3cb7ac0-4464-4cc9-b0fb-46241e42f641">
+    <name>СбросПризнакаПодготовленоКОтправкеПриОткрытииФормыПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сброс признака подготовлено к отправке при открытии формы письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e385e4b4-7648-4bda-b349-4c593a4aa4a5">
+    <name>УспешнаяОтправкаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешная отправка письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de12b375-afdd-412d-9430-0f21cd1637f6">
+    <name>УспешнаяОтправкаПисьмаПоВнутреннейМаршрутизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешная отправка письма по внутренней маршрутизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f4c50e6-dfec-427d-aee5-950c56794e30">
+    <name>УспешноеПолучениеВходящихСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешное получение входящих сообщений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f62043a9-e14f-48a7-93f7-91f26b0c4307">
+    <name>УспешноеПолучениеИдентификаторовВходящихСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешное получение идентификаторов входящих сообщений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9975f4b-d3b6-477d-9beb-234583227daf">
+    <name>УспешноеПолучениеПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешное получение письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8c1adc4-c3eb-4044-9964-8d4c67da735f">
+    <name>УспешноеПолучениеПисьмаПоВнутреннейМаршрутизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешное получение письма по внутренней маршрутизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd6270a0-0d01-4d30-ab48-75052bec29a5">
+    <name>УспешноУстановленоСоединениеИнтернетПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно установлено соединение интернет почты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58b64443-b81a-4a85-aa4b-e37bbccd6b5b">
+    <name>НачалоСеансаОтправкиПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало сеанса отправки писем</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

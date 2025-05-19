@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Статус</left>
+			<comparisonType>InList</comparisonType>
+			<right xsi:type="v8:ValueListType">
+				<v8:valueType/>
+				<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+			</right>
+			<userSettingID>fcde840a-251d-4a5d-8bce-ce0144f59fc4</userSettingID>
+		</item>
+		<item xsi:type="FilterItemGroup">
+			<use>false</use>
+			<groupType>OrGroup</groupType>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Ожидание</right>
+				<presentation xsi:type="xs:string">Ожидание</presentation>
+				<userSettingID>bfffc17d-983a-4b79-afe2-b1fa9e8a7ff2</userSettingID>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Новая</right>
+				<presentation xsi:type="xs:string">Новые</presentation>
+				<userSettingID>6be1571d-3af1-4068-96f4-25f164d5fa5f</userSettingID>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.ВОчереди</right>
+				<presentation xsi:type="xs:string">В очереди</presentation>
+				<userSettingID>67fbdf2f-0232-4122-951d-33784ccd27c1</userSettingID>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.ВРаботе</right>
+				<presentation xsi:type="xs:string">В работе</presentation>
+				<userSettingID>51826fa3-d953-4bb1-9195-7b7a10f25e36</userSettingID>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Подтверждение</right>
+				<presentation xsi:type="xs:string">Подтверждение</presentation>
+				<userSettingID>5c787108-df59-4a37-ad81-1d0c54a980f6</userSettingID>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Завершена</right>
+				<presentation xsi:type="xs:string">Завершенные</presentation>
+				<userSettingID>e437ed8f-70d6-408f-a9c7-0c32427946bb</userSettingID>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Статус</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Отменена</right>
+				<presentation xsi:type="xs:string">Отмененные</presentation>
+				<userSettingID>fe07fbe6-14ea-4815-a0c9-f1463d9f38c8</userSettingID>
+			</item>
+			<presentation xsi:type="xs:string">ГруппаСтатусы</presentation>
+			<viewMode>Inaccessible</viewMode>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Теги.Тег</left>
+			<comparisonType>InList</comparisonType>
+			<right xsi:type="v8:ValueListType">
+				<v8:valueType/>
+				<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+			</right>
+			<viewMode>Normal</viewMode>
+			<userSettingID>9495fc72-a65d-40db-918a-e8b846cfe02d</userSettingID>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
+	</filter>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ДатаСтатуса</field>
+			<orderType>Asc</orderType>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>Срок</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemGroup">
+					<groupType>OrGroup</groupType>
+					<item xsi:type="FilterItemGroup">
+						<groupType>AndGroup</groupType>
+						<item xsi:type="FilterItemComparison">
+							<left xsi:type="dcscor:Field">Статус</left>
+							<comparisonType>Equal</comparisonType>
+							<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Завершена</right>
+						</item>
+						<item xsi:type="FilterItemComparison">
+							<left xsi:type="dcscor:Field">Срок</left>
+							<comparisonType>Less</comparisonType>
+							<right xsi:type="dcscor:Field">ДатаСтатуса</right>
+						</item>
+						<item xsi:type="FilterItemComparison">
+							<left xsi:type="dcscor:Field">Срок</left>
+							<comparisonType>Filled</comparisonType>
+						</item>
+					</item>
+					<item xsi:type="FilterItemGroup">
+						<groupType>AndGroup</groupType>
+						<item xsi:type="FilterItemComparison">
+							<left xsi:type="dcscor:Field">Статус</left>
+							<comparisonType>NotEqual</comparisonType>
+							<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадач.Завершена</right>
+						</item>
+						<item xsi:type="FilterItemComparison">
+							<left xsi:type="dcscor:Field">Срок</left>
+							<comparisonType>Less</comparisonType>
+							<right xsi:type="v8:StandardBeginningDate">
+								<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+							</right>
+						</item>
+						<item xsi:type="FilterItemComparison">
+							<left xsi:type="dcscor:Field">Срок</left>
+							<comparisonType>Filled</comparisonType>
+						</item>
+					</item>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветФона</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">web:Coral</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</itemsUserSettingID>
+</Settings>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5871b86f-4add-4b00-a93a-1ca22cd1ddd4">
+  <producedTypes>
+    <objectType typeId="ef8400ef-b0bd-4cfb-a6cd-83587cbf1609" valueTypeId="002b0a43-5e0f-4eb7-8f41-9e447a82da8a"/>
+    <refType typeId="f3a33abd-a9fe-4038-994a-c57dc618a3de" valueTypeId="ec4166c6-1b95-4685-859c-202e8ada09f7"/>
+    <selectionType typeId="61c3320b-caac-45f4-a60f-ad1fb0eb526b" valueTypeId="92c048fa-1b99-42ef-b0f9-b923b8ae356c"/>
+    <listType typeId="e82bef95-2f30-4ce8-b8c6-8b61cc1c50c6" valueTypeId="0cae8b0e-43e9-4be2-8e69-8c3ae62673f2"/>
+    <managerType typeId="1e3b2d23-d3c0-413a-80ab-abc2cd1c3884" valueTypeId="f29e3d95-a558-4ceb-8578-08d6d4dc06cc"/>
+  </producedTypes>
+  <name>АдреснаяКнига</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресная книга</value>
+  </synonym>
+  <inputByString>Catalog.АдреснаяКнига.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="61c49f7c-c0ef-4fce-838c-b371e521579a">
+      <name>Избранное</name>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="fa48124a-dc28-43b0-9ddb-0b371a04e0a4">
+      <name>Исполнители</name>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e9e3cf78-372a-4393-aa66-054a3e886f0d">
+      <name>Заказчики</name>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="91c43911-9fe0-466a-9f1f-22be048496d0">
+      <name>ЛичныеАдресаты</name>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.АдреснаяКнига.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="39132dd9-ad99-4931-95a5-9908470fcfcc">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыЛичныхАдресатов</types>
+      <types>CatalogRef.Заказчики</types>
+      <types>CatalogRef.ЛичныеАдресаты</types>
+      <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>String</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Проекты</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ae4cdd1-ed85-443b-84b5-fc77b98cf2ab">
+    <name>ОбъектДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+      <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41b6af0f-d42f-4697-94e9-1e8f6d2b67f0">
+    <name>ОтображатьВАдреснойКниге</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать в адресной книге</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7b7e59ee-cd60-4e7b-aa4b-9bfec3f18452">
+    <name>ПорядокОбъектаВСписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок объекта в списке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba604b4b-5900-40a3-a0d4-a5a9e6ccb175">
+    <name>ПредставлениеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d47c9be-a3ee-4195-a6cb-d80565178e55">
+    <name>РодительОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель объекта</value>
+    </synonym>
+    <comment>Реквизит предназначен для вычисления доступа к записи</comment>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="309c8272-dd7d-42a2-96d2-cfc99ed041bc">
+    <name>ТипДанныхОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыДанныхАдреснойКниги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e1cf2d60-1ace-4813-9df2-03e4673ae8ac">
+    <name>ВыбораАдресовКонтакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбора адресов контакта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f5f2028-cd43-4b93-aaeb-adf4538a4fbd">
+    <name>ВыборАвтогруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор автогруппы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cea913b7-5005-468d-b802-408b79d1c6df">
+    <name>ВыборАвтоподстановок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор автоподстановок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9e97782-c675-4f7b-9f04-f7827c53da36">
+    <name>ВыборТипаПроцессаДляПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типа процесса для проекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c7de1c3-88e5-44db-8683-15002b649d11">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2e22804d-d0a1-45a6-b840-a414529b2204">
+    <name>АдреснаяКнига</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресная книга</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресная книга</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.АдреснаяКнига</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

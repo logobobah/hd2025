@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ac134e8-e728-45f0-8402-ae9153b2c9dc">
+  <producedTypes>
+    <objectType typeId="95e1d633-b5aa-4080-ba13-440e201a1462" valueTypeId="45213014-9b92-4dc5-91f5-164920a49434"/>
+    <managerType typeId="e49fdde7-a28b-4af9-b472-0ab57c6426cd" valueTypeId="ca869614-9f24-4114-8a2b-ed7b249c7aa2"/>
+  </producedTypes>
+  <name>АнализФактическогоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ фактического времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализФактическогоВремени.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="c007d5ed-b663-475e-af2a-47810cd611ec">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3ebaac95-531c-468f-82cf-c29fc89136f7">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

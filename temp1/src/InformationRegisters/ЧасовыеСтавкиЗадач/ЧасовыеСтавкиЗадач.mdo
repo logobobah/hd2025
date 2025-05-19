@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e89df51-d355-415f-b110-3883a1de0fb2">
+  <producedTypes>
+    <selectionType typeId="e32a0fff-b96d-4eaf-8510-7d46ebb84451" valueTypeId="60fccdc1-7184-4cf5-823c-047351a454e1"/>
+    <listType typeId="d2c78b6b-f669-4397-af72-5d9943ad49f1" valueTypeId="307f0f14-1df7-4f6c-aa8e-67416ffc0459"/>
+    <managerType typeId="3dcd42fa-8290-4c1f-b0dd-1720e4797356" valueTypeId="b7fc8a0c-cdb4-41ba-853a-7755116d23fd"/>
+    <recordSetType typeId="a7957b68-0f25-455d-a24e-71ad67e3bc4a" valueTypeId="e1ce2c28-25ad-4edb-a3e5-7b1114a84114"/>
+    <recordKeyType typeId="c7f41e87-0865-4ec8-8d24-fc63409559bb" valueTypeId="64fdd55f-311e-468a-b7e3-d4120242dc57"/>
+    <recordType typeId="23001e90-839c-4018-8a08-bab7078e8a36" valueTypeId="f0d3d29a-77fa-4bff-80af-35e316b32801"/>
+    <recordManagerType typeId="8a3786a1-1d76-47d0-be94-bdeda6898639" valueTypeId="2ef7255a-d597-49fa-ad4a-4589f4adb280"/>
+  </producedTypes>
+  <name>ЧасовыеСтавкиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовые ставки задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="a579fcb2-f847-441d-aaf5-12a208ba4641">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Стоимость за 1 час</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="576a658a-2e6e-4a44-91ca-8a6d68603189">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e40cf7fd-5586-403f-b5a5-2d833aafa3a8">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b16955c4-c20e-4ac0-aa9c-2f8b1c937e12">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

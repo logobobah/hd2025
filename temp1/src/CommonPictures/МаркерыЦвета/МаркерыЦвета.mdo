@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b12ff7b-d3ec-4c43-ba55-27a7981e0417">
+  <name>МаркерыЦвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркеры цвета</value>
+  </synonym>
+</mdclass:CommonPicture>

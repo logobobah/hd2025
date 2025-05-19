@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90831637-d0ff-42c2-b813-350563898a27">
+  <producedTypes>
+    <managerType typeId="6a49460f-f72a-4af9-afac-86dee6cd6994" valueTypeId="58cf1884-f89a-4470-b26a-ab8e88a9bb4f"/>
+    <valueManagerType typeId="22571552-cbf4-42cf-a0c1-a7baa0ebd9f7" valueTypeId="82f0d7e0-9fec-4c60-8478-3ab304de5c4f"/>
+    <valueKeyType typeId="88619063-5a61-536c-8ca1-baa545a441e0" valueTypeId="7efe43ae-e353-5bf0-b121-b004887ff48a"/>
+  </producedTypes>
+  <name>ИспользоватьЦентрОповещенияДляНапоминаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать центр оповещения для напоминаний</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Использовать центр оповещения для всплывающих напоминаний</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

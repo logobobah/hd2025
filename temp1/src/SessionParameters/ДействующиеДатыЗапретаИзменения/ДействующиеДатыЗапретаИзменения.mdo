@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67a0d64-3c26-43a9-b72c-b4eace0057fb">
+  <name>ДействующиеДатыЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действующие даты запрета изменения</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

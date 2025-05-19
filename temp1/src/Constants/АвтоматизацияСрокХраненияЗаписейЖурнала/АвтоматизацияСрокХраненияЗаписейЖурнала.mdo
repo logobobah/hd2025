@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c792420-304f-4de0-bde9-863d1100182b">
+  <producedTypes>
+    <managerType typeId="62f7d599-3b45-457c-a1a5-a83305aa6f36" valueTypeId="7efa45c0-ce61-4eef-8eae-01059f53224b"/>
+    <valueManagerType typeId="8fe2884c-9f5b-46cf-a9c7-73ea3f13e8bc" valueTypeId="81020d6f-ba5b-4d37-8296-381d0f91a9d9"/>
+    <valueKeyType typeId="d6d1bf77-bc69-42a9-a627-98d4b62f102d" valueTypeId="e348073a-1c80-4bb5-84d3-5fbdaa8aed09"/>
+  </producedTypes>
+  <name>АвтоматизацияСрокХраненияЗаписейЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения записей журнала сценариев (дней)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Срок хранения записей журнала выполнения сценариев (дней)</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Срок хранения записей журнала выполнения сценариев (дней)</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

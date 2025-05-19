@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17b6fe5f-d717-49ab-a2b9-eb74a54fa23b">
+  <producedTypes>
+    <objectType typeId="9db8be9d-fe6f-470c-baea-e36376773184" valueTypeId="98748442-5012-476e-bb8d-fce5ccf06ef0"/>
+    <managerType typeId="836bd47e-49b0-4bb1-9883-1c4f1b033519" valueTypeId="c0be23cc-de5b-4f08-92f7-32a6c0038f0b"/>
+  </producedTypes>
+  <name>ПоискИУдалениеДублей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и удаление дублей</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПоискИУдалениеДублей.Form.ПоискДублей</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Поиск и удаление дублирующихся элементов произвольных справочников</value>
+  </explanation>
+  <forms uuid="c06766fb-bdc7-46d5-ac9b-915200a4cbaf">
+    <name>ПоискДублей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск дублей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7faf0ed-0515-40fb-8a90-2253c9fe8ff1">
+    <name>ПравилаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила отбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d76fae7a-3a14-433d-b3c3-a758cb4e2ab3">
+    <name>ОбластьПоискаДублей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область поиска дублей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a8e53cd1-4a1a-4cee-9360-3c7ba01f3456">
+    <name>ПравилаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила поиска</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6bb7f42a-ac24-43d8-9ad3-79205b8daa93">
+    <name>ПоискИУдалениеДублей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск и удаление дублей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск и удаление дублирующихся элементов произвольных справочников</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

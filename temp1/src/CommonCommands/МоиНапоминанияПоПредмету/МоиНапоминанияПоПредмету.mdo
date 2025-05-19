@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abea0303-cc75-43d2-9b80-76b0b7dd528b">
+  <name>МоиНапоминанияПоПредмету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мои напоминания</value>
+  </synonym>
+  <group>CommandGroup.Перейти</group>
+  <commandParameterType>
+    <types>DefinedType.ПредметНапоминания</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Напоминание</picture>
+  </picture>
+</mdclass:CommonCommand>

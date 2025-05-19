@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8a28125-b78e-4e7d-9cfa-43af61df780c">
+  <name>DMX</name>
+  <synonym>
+    <key>ru</key>
+    <value>DMX</value>
+  </synonym>
+  <namespace>http://www.1c.ru/DMX</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue"/>
+  <descriptorFileName>DMX.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="fd5ba1e4-b97e-45ee-95e9-f89b3f547918">
+    <name>Put</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>XResponse</name>
+      <nsUri>http://www.1c.ru/DMX</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>Put</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="cc8f364d-19b4-4c71-91bc-ab58e1484961">
+      <name>XRequest</name>
+      <synonym>
+        <key>ru</key>
+        <value>XRequest</value>
+      </synonym>
+      <xdtoValueType>
+        <name>XRequest</name>
+        <nsUri>http://www.1c.ru/DMX</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f12ccc58-425a-4071-a689-ae8f59dd21cf">
+    <name>Get</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>XResponse</name>
+      <nsUri>http://www.1c.ru/DMX</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>Get</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a015e162-d1ea-4951-a91f-fdc2edc71a6c">
+      <name>XRequest</name>
+      <synonym>
+        <key>ru</key>
+        <value>XRequest</value>
+      </synonym>
+      <xdtoValueType>
+        <name>XRequest</name>
+        <nsUri>http://www.1c.ru/DMX</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

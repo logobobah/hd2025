@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef31191b-3e05-4d6a-944c-d683d8079c81">
+  <name>ОбменСМобильнымиПередЗаписьюФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильными перед записью файла</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Файлы</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменСМобильнымиСервер.ОбменСМобильнымиПередЗаписьюФайлаПередЗаписью</handler>
+</mdclass:EventSubscription>

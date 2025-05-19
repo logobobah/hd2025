@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5475cbf-2c3c-4ef5-a48c-3a1380be285b">
+  <producedTypes>
+    <objectType typeId="f799ddb3-3993-43c8-9313-3b67cbbceed0" valueTypeId="5e21e99f-2878-4fb2-bd34-8ba585fcea98"/>
+    <refType typeId="e00f1a71-d468-4a38-8310-1887c07a53cb" valueTypeId="4b47d52b-32bf-4108-9c91-314c561aa41c"/>
+    <selectionType typeId="cf400330-0561-44a3-8343-c16f89792fc2" valueTypeId="987cbd63-4d8e-4503-a3e9-5b6bcde8a33d"/>
+    <listType typeId="49c5db7c-982c-4efa-9989-8c3529dad659" valueTypeId="dfeb3be9-f137-4ea6-acbb-aa2cd38ffe0b"/>
+    <managerType typeId="75b69bb4-acb3-49c7-84aa-f4ae4614a1db" valueTypeId="11ba31f8-4018-460b-ac0b-67149e673d72"/>
+  </producedTypes>
+  <name>ТипыПрисоединенныхФайловПрограммныеПродукты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы присоединенных файлов программные продукты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыПрисоединенныхФайловПрограммныеПродукты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыПрисоединенныхФайловПрограммныеПродукты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ad2c7940-5925-4605-b6c7-263eaf65ef2c">
+    <name>ФайлВладелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммныеПродуктыПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

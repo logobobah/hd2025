@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69efbf16-6cdc-49a0-98f1-7b1fe4818616">
+  <producedTypes>
+    <refType typeId="1cfdd7d1-ffc3-4f82-8191-4acdd95dfb30" valueTypeId="f9f8c509-a319-466a-9749-89df5e2e16b8"/>
+    <listType typeId="6e750794-49df-470b-8575-6fb539e8b82e" valueTypeId="4499e185-9d67-4fd9-9403-049487afede0"/>
+    <managerType typeId="e52ef3ee-7b2e-4543-b4e3-f7473301a711" valueTypeId="daf3f9f0-2d72-44b4-ad48-7ba9228f1d18"/>
+  </producedTypes>
+  <name>АвтоматизацияВидыЗаписейЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды записей журнала (автоматизация)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa55ff4d-eed1-418c-943b-ffad8f05f859">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91a049ff-ef6b-48a2-8df1-b9f66a525f42">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ed7dad5-1093-431a-bd10-548e18e0cb58">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

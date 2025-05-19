@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52484f76-e2e1-448c-b373-00d988a4d6fc">
+  <producedTypes>
+    <selectionType typeId="b02ac593-0810-4ff6-a649-3bec95cc296a" valueTypeId="53717f68-e11b-4476-9c09-0dcde01fe469"/>
+    <listType typeId="1ad5b527-72b5-48e6-91a6-d3a4e795f546" valueTypeId="45e9671b-77ed-4d48-9866-b65bc1dceceb"/>
+    <managerType typeId="430dc1ad-95bc-46e1-a1e6-4f3a1366b4fa" valueTypeId="8a70ed4e-688c-42aa-9fdf-e3c133ab4d71"/>
+    <recordSetType typeId="e2dd5e5c-5b9e-4e44-bc78-c6c25e135334" valueTypeId="561fdc8f-5253-49b0-85a9-e534de955a9a"/>
+    <recordKeyType typeId="1942f807-60ee-4ac8-83eb-410bf799a347" valueTypeId="a0108622-bd8e-475c-8059-11e0a51dbc28"/>
+    <recordType typeId="af8f499b-c82c-4c10-ab8d-903ec862ab36" valueTypeId="0343764e-5d06-4d8a-bfc7-bde0421e9fc9"/>
+    <recordManagerType typeId="fd138fa6-773e-4f49-878b-8701237dfb51" valueTypeId="d7c27e84-30c0-4d1c-88ab-49ff7f4f0e24"/>
+  </producedTypes>
+  <name>СвойстваВидовЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства видов лицензий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="13e4d629-3660-4f30-8b6b-c769bfd64637">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвойстваЛицензий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.СвойстваВидовЛицензий.Dimension.СвойствоЛицензии</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.СвойстваВидовЛицензий.Dimension.СвойствоЛицензии</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c018de58-8d16-45ac-ab07-1f10dc188590">
+    <name>ВидЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид лицензии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЛицензий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="acbd2ed3-6568-4832-a282-a6ae4336f467">
+    <name>СвойствоЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство лицензии</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваЛицензий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

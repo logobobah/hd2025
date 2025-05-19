@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="493536f7-1262-4591-811c-0b39c0b2f330">
+  <name>ВыборСтандартногоПериодаДень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбора стандартного периода - день</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

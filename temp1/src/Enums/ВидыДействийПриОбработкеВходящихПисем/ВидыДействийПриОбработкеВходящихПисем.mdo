@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="012b8d48-2d76-4e96-9097-86a44f5cc300">
+  <producedTypes>
+    <refType typeId="0592a841-a8fd-42d4-80c8-1154a09f1038" valueTypeId="a077ecf5-01ff-4709-86e9-9d532725bbac"/>
+    <listType typeId="8af29ea1-0336-4789-bd04-b551c62e0c74" valueTypeId="150538e1-79fc-45b3-81d8-b161aab3203f"/>
+    <managerType typeId="46ebf2b7-986d-49f0-b89d-a95e78ca84e3" valueTypeId="1f6879e2-1a1b-417d-bc56-d1bf2cc4ec47"/>
+  </producedTypes>
+  <name>ВидыДействийПриОбработкеВходящихПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий при обработке входящих писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9d4ea86f-0bab-4ef0-92b3-7b4ae31a30a3">
+    <name>ПереместитьВУказаннуюПапку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенести в папку:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46357511-65d6-4b28-af4e-2c856cffd996">
+    <name>УстановитьУказанныйФлаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить флаг:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="701386bd-9d0a-4526-a549-20ba61054b0c">
+    <name>УстановитьПометкуПрочтения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить пометку прочтения:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e97f30a-3999-490a-9ce3-26d54b2d5e90">
+    <name>ОтветитьСУказаннымТекстом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответить текстом:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f3469d9-fba5-4317-a0b1-4260c74b2afd">
+    <name>ПометитьНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометить на удаление:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39d0b60d-27e4-4c1c-8515-0d90800f4929">
+    <name>УстановитьУказанныйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить проект:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd57e0e8-42d3-42d8-819c-24a96247d942">
+    <name>ОстановитьПроверкуДругихПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановить проверку всех следующих правил:</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cf8004b-d013-4595-8d52-68b8caa3a15a">
+  <name>ДополнительныеВозможностиВнешнихПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные возможности внешних пользователей</value>
+  </synonym>
+  <comment>(редактирование контактных лиц, проектов, закрытие задач)</comment>
+</mdclass:Role>

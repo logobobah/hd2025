@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a4a4ce-bcaf-4935-86bc-9a4cc77886c9">
+  <producedTypes>
+    <objectType typeId="0603d330-2500-4c56-8c5c-f980e5486f2e" valueTypeId="28dd7401-69af-4148-a591-db4d687cbb00"/>
+    <refType typeId="5cf3e778-206b-4645-afdb-1fab8e8f52c8" valueTypeId="9c010e2f-7f89-487a-abdc-50ccccb352de"/>
+    <selectionType typeId="9a9e6e0b-67ce-4a07-8bc8-513c27f4a7b0" valueTypeId="37583dd1-561e-4810-9ceb-96105d487f44"/>
+    <listType typeId="26d33665-fd7f-4c1b-82d4-467e78117a0b" valueTypeId="7f5b0956-e482-43c7-8da7-dc2bff53a3d7"/>
+    <managerType typeId="710a6063-8b89-43fa-832a-9f125157fe4e" valueTypeId="42d5fee4-f988-4de0-b381-5724f12cc213"/>
+  </producedTypes>
+  <name>ЗначенияСвойствЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств лицензий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗначенияСвойствЛицензий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗначенияСвойствЛицензий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.СвойстваЛицензий</owners>
+  <codeLength>50</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

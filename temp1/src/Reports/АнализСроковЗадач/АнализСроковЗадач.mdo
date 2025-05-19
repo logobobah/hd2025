@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51fbf10f-c83c-4be8-94c8-f33195295b89">
+  <producedTypes>
+    <objectType typeId="0d6a649f-cf24-4c8b-b99e-57422eff6fe6" valueTypeId="af02b61e-13fe-4f53-abba-f1b41f14cc7e"/>
+    <managerType typeId="6135047f-438e-49d6-ac07-57279d47b29d" valueTypeId="5b920d72-3716-4611-8b6c-86f64d6409bb"/>
+  </producedTypes>
+  <name>АнализСроковЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ сроков задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализСроковЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="620bf236-9b98-47e3-ba23-69ef13ce8569">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

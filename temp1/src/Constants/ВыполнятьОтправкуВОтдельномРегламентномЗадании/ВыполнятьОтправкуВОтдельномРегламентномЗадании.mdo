@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3839a75a-115d-4613-905d-d248493ddf5c">
+  <producedTypes>
+    <managerType typeId="6d9dded7-3df3-4f4b-a855-afff86ce678e" valueTypeId="e7b95ae2-fd28-4a71-a756-d3cc93e46ada"/>
+    <valueManagerType typeId="ffce662b-7d31-4417-82f6-4aeee36126f0" valueTypeId="d82c70d5-9b12-458f-9c80-606bda082524"/>
+    <valueKeyType typeId="47ed9edc-a3fa-577f-973b-443b966bfbad" valueTypeId="29df5e82-3ff6-59d7-8493-d71cb25c7606"/>
+  </producedTypes>
+  <name>ВыполнятьОтправкуВОтдельномРегламентномЗадании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять отправку в отдельном регламентном задании</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

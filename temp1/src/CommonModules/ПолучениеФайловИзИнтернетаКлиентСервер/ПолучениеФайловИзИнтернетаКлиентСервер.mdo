@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="510bd4ee-1e66-4c9a-b0a4-13b938a3738b">
+  <name>ПолучениеФайловИзИнтернетаКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение файлов из Интернета клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

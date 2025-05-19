@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1a0236b-5fc0-4414-8d40-2b759564f6a3">
+  <producedTypes>
+    <managerType typeId="9f179721-1e05-4939-876f-21cf75b8d013" valueTypeId="55cbd30a-e4cf-42e4-9b43-6c9728c6c320"/>
+    <valueManagerType typeId="96484ab5-e6e9-4acc-bd5c-9dff8d4e0a29" valueTypeId="5703e8c9-8556-46e3-a24f-f2405dc14d03"/>
+    <valueKeyType typeId="c090ae4e-b353-55ad-9dc0-ac1dec981085" valueTypeId="d3694ccf-91af-56b7-a074-d6ac480aba89"/>
+  </producedTypes>
+  <name>ИспользоватьАвтоматическуюОчередьЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автоматическую очередь задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>При включении на доске задач в колонке &quot;В очереди&quot; задачи будут сортироваться по предлагаемому порядку к их выполнению сверху вниз. Порядок учитывает сроки, приоритеты и количество часов к оплате.
+Описание алгоритма изложено в справке.</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>При включении на доске задач в колонке &quot;В очереди&quot; задачи будут сортироваться по предлагаемому порядку к их выполнению сверху вниз. Порядок учитывает сроки, приоритеты и количество часов к оплате.
+Описание алгоритма изложено в справке.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

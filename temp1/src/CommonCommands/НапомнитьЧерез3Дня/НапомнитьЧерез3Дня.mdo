@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21007004-c6e9-4da0-bd42-9eed6a9d90bc">
+  <name>НапомнитьЧерез3Дня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напомнить через 3 дня</value>
+  </synonym>
+  <group>CommandGroup.Органайзер</group>
+  <commandParameterType>
+    <types>DefinedType.ПредметНапоминания</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Установить напоминание через 3 дня по выбранному предмету</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.НапоминаниеКолокол</picture>
+  </picture>
+</mdclass:CommonCommand>

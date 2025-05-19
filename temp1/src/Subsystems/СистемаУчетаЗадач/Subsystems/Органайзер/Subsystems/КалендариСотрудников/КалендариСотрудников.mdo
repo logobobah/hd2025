@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2357b25-d3c1-40a0-a561-b781f2d84e6f">
+  <name>КалендариСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календари сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>EventSubscription.АктуализироватьЗаписиКалендаряПоИсточнику</content>
+  <content>CommonModule.КалендариСотрудников</content>
+  <content>DefinedType.ИсточникЗаписейКалендаря</content>
+  <content>DefinedType.ИсточникЗаписейКалендаряОбъект</content>
+  <content>Role.ИспользованиеКалендаряСотрудника</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника</content>
+  <content>Catalog.КалендариСотрудников</content>
+  <content>CommonCommand.ОткрытьРабочееМестоКалендаря</content>
+  <content>CommonModule.РаботаСЦветомКлиентСервер</content>
+  <content>CommonPicture.ПолностьюИсправлено16</content>
+  <content>CommonPicture.Цвет01</content>
+  <content>CommonPicture.Цвет02</content>
+  <content>CommonPicture.Цвет03</content>
+  <content>CommonPicture.Цвет04</content>
+  <content>CommonPicture.Цвет05</content>
+  <content>CommonPicture.Цвет06</content>
+  <content>CommonPicture.Цвет07</content>
+  <content>CommonPicture.Цвет08</content>
+  <content>CommonPicture.Цвет09</content>
+  <content>CommonPicture.Цвет10</content>
+  <content>CommonPicture.Цвет11</content>
+  <content>CommonPicture.Цвет12</content>
+  <content>CommonPicture.Цвет13</content>
+  <content>CommonPicture.Цвет14</content>
+  <content>CommonPicture.Цвет15</content>
+  <content>CommonPicture.Цвет16</content>
+  <content>CommonPicture.Цвет17</content>
+  <content>CommonPicture.Цвет18</content>
+  <content>CommonPicture.Цвет19</content>
+  <content>CommonPicture.Цвет20</content>
+  <content>CommonPicture.Цвет21</content>
+  <content>CommonPicture.Цвет22</content>
+  <content>CommonPicture.Цвет23</content>
+  <content>CommonPicture.Цвет24</content>
+  <content>CommonForm.ВыборЦвета</content>
+  <content>CommonModule.РаботаСКалендаремКлиентСервер</content>
+  <content>CommonModule.РаботаСКалендаремСервер</content>
+  <content>StyleItem.ЦветКалендаряПодпись</content>
+  <content>StyleItem.ЦветКалендаряПодписьТекущийДень</content>
+  <content>StyleItem.ЦветКалендаряТекущаяЗапись</content>
+  <content>StyleItem.ЦветКалендаряФонТекущегоДня</content>
+  <content>StyleItem.ЦветКалендаряФонШапки</content>
+  <content>StyleItem.ЦветКалендаряДоступноеВремя</content>
+  <content>StyleItem.РамкаКалендаряТекущаяЗапись</content>
+  <content>Enum.ПравилаОкончанияПовторения</content>
+  <content>Enum.ТипЗаписиКалендаря</content>
+  <content>Enum.ЧастотаПовторения</content>
+  <parentSubsystem>Subsystem.СистемаУчетаЗадач.Subsystem.Органайзер</parentSubsystem>
+</mdclass:Subsystem>

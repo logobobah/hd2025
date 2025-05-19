@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d0beab6-91b9-47e7-aeb7-f9bf59c737e1">
+  <producedTypes>
+    <objectType typeId="4f6ea59a-1be0-4c4b-9d27-cba33eb12bca" valueTypeId="923cf5f2-63d8-4256-b4e3-b1cccd78eff0"/>
+    <managerType typeId="e3ce616a-d109-46b7-af2b-3666467c186b" valueTypeId="2a3ede13-2100-44af-abb1-1f48b999cc62"/>
+  </producedTypes>
+  <name>КлассификацияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификация (теги) задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КлассификацияЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет показывает трудозатраты по указанным тегам в задачах</value>
+  </explanation>
+  <templates uuid="0fbc7ea1-0736-4462-a3f6-16bf582f8c85">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

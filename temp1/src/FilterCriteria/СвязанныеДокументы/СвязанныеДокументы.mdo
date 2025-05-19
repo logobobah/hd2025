@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c26d6f9-f538-4764-8b01-35eb09f1f64e">
+  <producedTypes>
+    <listType typeId="0ed540d7-e219-452c-92d6-323b395574b1" valueTypeId="3f6fe940-e9e5-4c80-ae7f-fe65b950698f"/>
+    <managerType typeId="dd94e3a2-1c65-4a09-bc4f-69d4fc9acaff" valueTypeId="cf0ff7b6-e9b6-4bf0-afe8-1a5ed1f7b986"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.Задачи</types>
+    <types>DocumentRef.Трудозатраты</types>
+    <types>DocumentRef.ВходящееПисьмо</types>
+    <types>DocumentRef.ИсходящееПисьмо</types>
+  </type>
+  <content>Document.ВходящееПисьмо.Attribute.Предмет</content>
+  <content>Document.Задачи.TabularSection.Предметы.Attribute.Предмет</content>
+  <content>Document.ИсходящееПисьмо.Attribute.ПисьмоОснование</content>
+  <content>Document.ИсходящееПисьмо.Attribute.Предмет</content>
+  <content>Document.Трудозатраты.TabularSection.Работы.Attribute.Задача</content>
+</mdclass:FilterCriterion>

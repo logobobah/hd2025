@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8f39b74-97f2-4770-b5d7-80dc6356d7a4">
+  <name>НапоминаниеКолокол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминание колокол</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d03212c9-3037-42ed-a4ec-f835425e0b33">
+  <producedTypes>
+    <refType typeId="12d6f0ac-74fc-4eca-8868-d19d2ab8cc5a" valueTypeId="2bf8a825-23ac-4d4c-841e-eb12902e69f6"/>
+    <listType typeId="6ca594a3-5245-49ed-b395-1e89b46ff24a" valueTypeId="a78c19ea-573c-42ab-8623-671b481d7b3a"/>
+    <managerType typeId="910c3d4e-7dda-4e5e-ab9e-0d2007fa6be2" valueTypeId="22ccb5a2-58b2-425a-baa7-876af64247f9"/>
+  </producedTypes>
+  <name>ВидыНастроекОбменаСМобильнымКлиентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды настроек обмена с мобильным клиентом</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5203bb80-702d-48fb-8df5-467f35f81d30">
+    <name>МаксимальныйРазмерФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный размер файла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6aeec9f8-7b3d-4a29-b979-6dae874bbd05">
+    <name>СинхронизацияПапокПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация папок писем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1d6db42-339d-4541-a940-8447b9b935fa">
+    <name>СинхронизироватьЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать задачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b59d46b2-afda-4b01-8ee4-4e66a4696da1">
+    <name>СинхронизироватьКалендарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать календарь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d7f3259-36b3-4bba-972d-c8731f4fd25a">
+    <name>СинхронизироватьПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать почту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ebd23b0-fc1a-469f-951e-dfb1fa41d714">
+    <name>СрокУстареванияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок устаревания данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4685b6c-a919-4802-8309-b7b034f53d8e">
+    <name>ШаблоныТекстовПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны текстов писем</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

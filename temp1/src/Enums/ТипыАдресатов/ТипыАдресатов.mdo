@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b6334d9-9c60-4ece-9961-e587dc8b2a38">
+  <producedTypes>
+    <refType typeId="dc9fd1e0-300e-4ec6-8ccf-80e693e2d160" valueTypeId="7df986f4-6418-4790-94a4-9c2c8a9bcb9e"/>
+    <listType typeId="c1e7fe9f-2367-4b73-97d0-aa8840b85913" valueTypeId="08df461f-b52f-46af-acc8-cbadb28102fd"/>
+    <managerType typeId="3df04062-04b6-4985-9586-3a3cc3e462a2" valueTypeId="0a811b81-e38f-498c-b744-3f4957b225fb"/>
+  </producedTypes>
+  <name>ТипыАдресатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы адресатов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c79b0637-54e9-475b-98c0-0f66639e4a5e">
+    <name>Кому</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кому:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6737805-db61-4a98-a7d3-37f9dd01b74b">
+    <name>Копия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копия:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="225ab3de-0a85-48a5-950c-72a6cd748db8">
+    <name>СкрытаяКопия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытая копия:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="688fdc52-6aac-4174-ba78-d9f5f215dea6">
+    <name>ОбратныйАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обратный адрес:</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

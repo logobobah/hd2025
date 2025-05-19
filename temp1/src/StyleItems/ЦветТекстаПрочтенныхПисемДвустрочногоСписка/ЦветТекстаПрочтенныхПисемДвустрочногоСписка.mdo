@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b09cf397-c44e-4a42-9959-f86137929550">
+  <name>ЦветТекстаПрочтенныхПисемДвустрочногоСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет текста прочтенных писем двустрочного списка</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>127</red>
+      <green>127</green>
+      <blue>127</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

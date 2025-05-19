@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fe96326-d800-48d6-b47c-52276bd0842c" thisNode="60b16435-f2f3-4282-812e-32cccb06449a">
+  <producedTypes>
+    <objectType typeId="58a3efa7-12ee-4796-9431-e528d50e7b18" valueTypeId="7c95f460-ec4d-443b-a460-04384e3f474c"/>
+    <refType typeId="714db29d-2300-4105-ae32-4f6e43975c9c" valueTypeId="81990da1-9e24-4633-b503-a4422f8a147c"/>
+    <selectionType typeId="b3c7155c-9eea-4262-9c71-67edb5c45254" valueTypeId="90cb8aba-f5d6-4356-8c38-a5a56edb116c"/>
+    <listType typeId="1bed34ed-1147-4c09-829b-161a1b0d2652" valueTypeId="e16862f1-2d5f-4562-8eb8-95a8c345432a"/>
+    <managerType typeId="b1aa3e88-5365-4a50-b833-30f996a68556" valueTypeId="f5a42ff5-7f8b-4c67-93c5-c9c2c730db31"/>
+  </producedTypes>
+  <name>ОбменСGoogleCalendar</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Google Calendar</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСGoogleCalendar.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСGoogleCalendar.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <content>
+    <mdObject>Catalog.ЗаписиКалендаряСотрудника</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменСGoogleCalendar.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="ca2d515d-b81e-4a49-8f8a-eca2d99360f2">
+    <name>КалендарьСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь сотрудника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КалендариСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f1510469-c133-4a95-b92f-8b630829d508">
+    <name>ЗарегистрированныеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрированные изменения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="773ffd6e-581e-41bc-80ca-0247a459e99a">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a410a94d-06dc-4d6f-8acf-1a019cbff498">
+    <name>ЗарегистрированныеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрированные объекты</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:ExchangePlan>

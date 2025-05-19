@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30488d77-2165-4426-9c87-2ea4c5a832e7">
+  <name>ИспользоватьМобильныеКлиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать мобильные клиенты</value>
+  </synonym>
+  <location>Constant.ИспользоватьМобильныеКлиенты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.НастройкаСинхронизацииСМобильнымКлиентом</content>
+  <content>InformationRegister.СинхронизацияПапокПисемСМобильнымКлиентом</content>
+  <content>Catalog.СообщенияИнтегрированныхСистем</content>
+  <content>Subsystem.Администрирование.Subsystem.МобильноеПриложение</content>
+  <content>InformationRegister.ПротоколРаботыСМобильнымиКлиентами</content>
+  <content>Catalog.СообщенияИнтегрированныхСистем.Command.СообщенияОбменаСМобильными</content>
+  <content>ExchangePlan.Мобильный.Command.МобильныеКлиенты</content>
+  <content>InformationRegister.ОбменСМобильнымиНастройкиПользователей</content>
+  <content>Enum.ОбменСМобильнымиТипыНастроекПользователей</content>
+  <content>ExchangePlan.Мобильный</content>
+  <content>Enum.ТипыСобытийПротоколаРаботыСМобильнымКлиентом</content>
+  <content>InformationRegister.РазрешенныеМобильныеПользователи</content>
+  <content>Constant.АдресПубликацииНаВебСервере</content>
+  <content>ExchangePlan.МобильныйРегистрацияВсехДанных</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2a86785-fafb-42d9-b68c-e706211a8a18">
+  <name>ГрупповоеИзменениеОбъектовПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое изменение объектов переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

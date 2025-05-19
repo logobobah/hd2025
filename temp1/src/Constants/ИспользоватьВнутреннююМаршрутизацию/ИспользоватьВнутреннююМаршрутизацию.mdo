@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cace792b-09d6-49d1-84a2-650e8f004d09">
+  <producedTypes>
+    <managerType typeId="cec5e9cb-e3aa-455a-bf7a-77937f99c4e6" valueTypeId="29125f80-950c-4b2b-88fa-8b200c6d83f7"/>
+    <valueManagerType typeId="cfcd278a-2c25-436a-b9ba-a5aa83ba4bc6" valueTypeId="0838d6f1-6930-476d-9c7b-a232c2e243ad"/>
+    <valueKeyType typeId="cc74cfc2-8b1c-5bac-8a37-98dcf30f420e" valueTypeId="de41568f-9e44-5d07-96ff-ddd233a881b6"/>
+  </producedTypes>
+  <name>ИспользоватьВнутреннююМаршрутизацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внутреннюю маршрутизацию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

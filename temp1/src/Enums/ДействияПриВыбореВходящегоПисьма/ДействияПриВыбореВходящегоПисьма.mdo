@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994096e2-3e59-40fb-b3cf-0681aea9a43b">
+  <producedTypes>
+    <refType typeId="80398f43-d2cf-4669-8e7c-a51650b69159" valueTypeId="b0ec6943-2e99-4fcf-8107-a8055be2d40d"/>
+    <listType typeId="00c10d0b-c749-4cbd-b324-a05a561a2d97" valueTypeId="51422eca-8714-48fd-adcc-1f410c3df93f"/>
+    <managerType typeId="3a636c25-9dc3-4d62-8aac-5188a17f0f5e" valueTypeId="5f3f6099-271a-4ca6-9984-2cefd78b714a"/>
+  </producedTypes>
+  <name>ДействияПриВыбореВходящегоПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия при выборе входящего письма</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="43dce5ae-1643-43bf-bff9-b26b9c08ee47">
+    <name>ОткрытьКарточкуПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть карточку письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bab1e84c-6f55-497c-8d29-10ff4108f1d5">
+    <name>Ответить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d85778ac-6af4-46f6-adc8-8a8472e79d34">
+    <name>ОтветитьВсем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответить всем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e21bdbb-17fa-40d2-860d-5022d301ea02">
+    <name>Переслать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переслать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

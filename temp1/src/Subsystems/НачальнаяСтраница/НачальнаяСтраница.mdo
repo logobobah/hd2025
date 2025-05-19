@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715406fb-d041-4459-a9a2-48a9a388d74f">
+  <name>НачальнаяСтраница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальная страница</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonCommand.ДополнительныеОбработкиРабочийСтол</content>
+  <content>CommonCommand.ДополнительныеОтчетыРабочийСтол</content>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>Report.АнализТрудозатрат</content>
+  <content>Catalog.ПрограммныеПродукты</content>
+  <content>Report.КонтрольПинКодов</content>
+</mdclass:Subsystem>

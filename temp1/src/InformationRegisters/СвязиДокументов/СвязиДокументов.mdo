@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95d42392-5e57-474b-aafe-313c1f63f707">
+  <producedTypes>
+    <selectionType typeId="c6cd1e6a-d4ae-42df-a585-38024a496111" valueTypeId="32a9d251-51b3-4d77-a75e-89f6301e105d"/>
+    <listType typeId="01acdaae-4034-456c-9d49-e954909c3348" valueTypeId="17013429-5061-4010-99f5-a98a83b2e769"/>
+    <managerType typeId="baac3552-4d11-40c1-b7b4-ba391b91de68" valueTypeId="a26ec0b9-e963-48a8-a41a-10b486b5aa90"/>
+    <recordSetType typeId="e3996d1d-f251-4243-be93-c87c38b71823" valueTypeId="33f45ae6-a53c-4a21-8e51-6f2e68c1b503"/>
+    <recordKeyType typeId="f974a931-72a5-413d-ad77-f047211a878f" valueTypeId="ebfc247c-6630-4391-ab7e-d3fa9e76f1d8"/>
+    <recordType typeId="62ce5bde-9c40-43fe-b62c-04a4d4e12438" valueTypeId="5c27d375-53eb-4f98-9ec2-a79df2fae7ff"/>
+    <recordManagerType typeId="be7ac111-1f66-4743-9587-8ebb9714669a" valueTypeId="e6382081-be83-4953-8256-2ba101898715"/>
+  </producedTypes>
+  <name>СвязиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СвязиДокументов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c5d7bfb1-16ce-41a9-b799-1a5f7cab018d">
+    <name>СвязанныйДокументОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанный документ отправлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="973e90f8-98bf-467c-97bb-b1b77670e65e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0998865b-28e1-4442-bf5c-ca8b1f5b0f86">
+    <name>Установил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8215d153-3597-44fa-bf25-39a7ec49712b">
+    <name>ДатаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a12d0509-6e96-486e-8852-0467b6bf802f">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядок отображения в списке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9533f2ad-308c-41a2-9ffe-97d8c61672eb">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+      <types>CatalogRef.Файлы</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b0ac89df-9a65-4ec5-bc97-b0055ffd6d69">
+    <name>ТипСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип связи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСвязей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ddd49759-3b2a-414b-ab51-07fc322a9575">
+    <name>СвязанныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанный документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+      <types>CatalogRef.Файлы</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9a33fdd4-ea18-4778-a922-cf4d585a4895">
+    <name>СвязаннаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанная строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ca0a6073-a4e3-4b24-b42a-41c837736f3e">
+    <name>СозданиеОбязательныхСвязей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание обязательных связей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="18772704-632a-4fbc-8b60-b5d902184bce">
+    <name>СозданиеСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание связи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="975f05cc-5a3b-42ad-bb28-9abc4ac1e8cd">
+    <name>ФормаВнешнегоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя ссылка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42096b90-4820-4551-b00c-f10bd67be631">
+    <name>ФормаВнешнегоРесурсаДляСозданияСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя ссылка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81986fe3-d2c0-4899-a95f-980c278b2606">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связь документа</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f7adade-054a-43bb-8819-2ed990f0c28d">
+    <name>ФормаСвязейОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связи объекта</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="19246914-baba-47a9-b3df-c5a1a660f5e7">
+    <name>ОткрытьФормуСвязиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связи</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+      <types>CatalogRef.Файлы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62bfceb4-257a-4fa8-b938-4ae7f5b35a22">
+  <producedTypes>
+    <managerType typeId="7ab79948-5664-45f7-8dcf-5cd88f265e89" valueTypeId="d74891fa-ea03-4189-951f-59cb99c74110"/>
+    <valueManagerType typeId="5bb09392-e643-40c8-bb59-198e00af01d9" valueTypeId="bfcdf1e0-2c46-4785-8e62-c025799a0642"/>
+    <valueKeyType typeId="3d6eff4a-3795-500f-aba3-3060d8bcf950" valueTypeId="0d6f370c-4214-550b-8a69-08cbbaa04874"/>
+  </producedTypes>
+  <name>ИспользоватьInternetExplorerДляПолученияТекстаИзHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получать текст из HTML писем точно</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

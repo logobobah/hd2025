@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74d34463-8777-47bc-bf3d-9385318707ef">
+  <producedTypes>
+    <selectionType typeId="1890dd30-8094-4230-8639-4f98ef655d70" valueTypeId="7cd1b575-76f1-4e7a-9d0d-51e268fabd3d"/>
+    <listType typeId="9772ef98-b025-44cf-b474-29f79473a59b" valueTypeId="8f143780-bd89-4d90-89f4-d9567ce45ae3"/>
+    <managerType typeId="0a449ef3-0317-49c0-8afe-165d882e58e5" valueTypeId="323637d2-3d92-4dde-bcea-cf22bef82d19"/>
+    <recordSetType typeId="e6512713-bfe3-4450-b093-10d5a55fe07b" valueTypeId="e37d1480-0b3b-423f-aad6-71bcfe6372ed"/>
+    <recordKeyType typeId="0bdfb050-0210-4b99-9744-3dc62ba127dd" valueTypeId="a18acc52-aacc-4211-9593-265d6eacbe57"/>
+    <recordType typeId="a30e3da8-a8e2-424e-9dc4-1b4045bb9bb0" valueTypeId="19cb5be8-247a-43e7-8cf1-0a979804c1af"/>
+    <recordManagerType typeId="a38bd546-4c12-46c1-a586-8f6e29276ca6" valueTypeId="d7e24a53-e646-42b8-8e2e-95a015d123a8"/>
+  </producedTypes>
+  <name>ЦветаПриоритетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета приоритетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЦветаПриоритетов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЦветаПриоритетов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6bef9084-f1fc-4f1d-b0b2-c0173c25ca1f">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:StringValue">
+      <value>17</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3c6598d1-251f-4b17-b3f9-a9251d28db22">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>9</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="261e6dd5-9dc8-4ef5-a2e6-9f4441387ab5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cafd3299-0c94-42a5-9885-748170f1c66d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

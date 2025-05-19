@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec6c632-5fdc-493e-af29-617c4e3dc64b">
+  <producedTypes>
+    <refType typeId="5ba6d98d-4fb9-4bc1-9093-0162256dc6b2" valueTypeId="d358aa36-bdd3-4c83-9a3b-0f7e4b5a9fde"/>
+    <listType typeId="6804fe8d-3906-456c-915e-55689014218e" valueTypeId="95b8a07a-0993-4a88-82fb-933b8e43d481"/>
+    <managerType typeId="71c18abd-fe9b-4431-bda9-40012e1c0c00" valueTypeId="9f8a827b-26a9-4a2f-be10-1c145afcf71c"/>
+  </producedTypes>
+  <name>ВариантыИспользованияПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты использования почты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89b93554-73ed-4e4d-a86d-ddda3d2c0481">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9ac56fc-2566-407c-98d6-703dc7a21afb">
+    <name>Легкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта для рассылок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6c4b1a6-0579-42a4-a407-b287954a64aa">
+    <name>Встроенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенная почта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

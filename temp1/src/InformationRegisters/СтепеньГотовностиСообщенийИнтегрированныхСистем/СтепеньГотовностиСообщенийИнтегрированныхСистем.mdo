@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b86c2530-cb8f-4884-aded-8917a3cf7093">
+  <producedTypes>
+    <selectionType typeId="83aa9d1d-1230-4345-9e20-44c00f93cf87" valueTypeId="89196589-353e-4aae-bae3-ee912d5865a0"/>
+    <listType typeId="0f062fc0-9d56-49ff-a232-237818ad95b9" valueTypeId="e4692b6f-3457-4398-843c-e42da38c4863"/>
+    <managerType typeId="a7e65a7e-7755-48aa-b5f2-db7532978a13" valueTypeId="57a93e60-9cbf-49ee-870e-a8481e463774"/>
+    <recordSetType typeId="368a139e-6c5c-420d-a249-ac35fc11718d" valueTypeId="63a03864-09c3-4382-b6d1-d8012b7613bb"/>
+    <recordKeyType typeId="01ed9d82-d5e1-4a79-847f-3808c2afd393" valueTypeId="3c248770-847f-4e10-b654-4455c5acc39a"/>
+    <recordType typeId="d3eabb42-0d4f-4d7e-9e10-3fb84dd0342a" valueTypeId="b02e8212-5a58-4a0b-aa63-5cc804c1ef76"/>
+    <recordManagerType typeId="4fcb6e24-5287-407f-8547-569fd889b981" valueTypeId="a7240df3-c40d-4a4e-8a54-66d9b782e6b0"/>
+  </producedTypes>
+  <name>СтепеньГотовностиСообщенийИнтегрированныхСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степень готовности сообщений интегрированных систем</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e76ef08-bbac-4535-b610-3e3dcb636d52">
+    <name>ПроцентГотовности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент готовности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f053c00b-e62c-43da-965b-6213a3b8f693">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СообщенияИнтегрированныхСистем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c0d6b50-cb4d-483e-9157-aafbb6e25da5">
+  <name>АвтоматизацияПриЗаписиДокументаСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация, при записи документа/справочника</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.АвтоматизацияСервер.ПриЗаписиДокументаСправочника</handler>
+</mdclass:EventSubscription>

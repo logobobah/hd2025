@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3903da8c-7c52-42fe-ad52-fe685f734a8c">
+  <producedTypes>
+    <selectionType typeId="85e2439b-054f-44d8-943f-1ca35eb9473d" valueTypeId="8ca01fb5-b99a-474b-98ba-a18059db18f0"/>
+    <listType typeId="49e0b41e-debd-4315-afe8-b0f38aabbb82" valueTypeId="2090ab67-0ff8-40c1-85a8-1825f6ab0010"/>
+    <managerType typeId="12ad5e83-3bc1-4b4d-b9f9-7501fa2b4c2c" valueTypeId="fd7e6c47-8d84-4151-bbe5-495e031c0417"/>
+    <recordSetType typeId="e4ad5cf6-42eb-43e3-90da-606bd450f13d" valueTypeId="10e96b93-f418-4a7f-ad10-35a5cb8faf4c"/>
+    <recordKeyType typeId="9b60f742-e1ac-46c8-a9b6-28f449d0634f" valueTypeId="298d0744-b458-418b-a7bc-284a40469e59"/>
+    <recordType typeId="8fae16a1-5364-4fe9-abad-5409b63bade8" valueTypeId="a9439630-c6ff-4e0a-86f3-156cd0ff5342"/>
+    <recordManagerType typeId="64e91d65-84d5-4c7c-89ed-0861e618a52a" valueTypeId="dc57d4e3-105d-49d6-9776-01344276d3b4"/>
+  </producedTypes>
+  <name>СинхронизацияПапокПисемСМобильнымКлиентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация папок писем с мобильным клиентом</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="dccda2d5-3f98-4047-b41a-0392017e4e81">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="684d5239-6f67-4639-9990-211b9432ab7a">
+    <name>Папка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПапкиПисем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

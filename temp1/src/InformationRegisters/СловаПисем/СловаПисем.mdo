@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b00c8ea6-0ea0-493b-a7d2-473cf4ee79aa">
+  <producedTypes>
+    <selectionType typeId="352c6918-a733-4407-9a46-43af80175cb9" valueTypeId="5811b169-837a-4dea-a9a3-cfdccafab6f2"/>
+    <listType typeId="f52195fe-6169-438e-9c94-c5c467bded38" valueTypeId="7be11a04-260e-45b5-b94e-a72e85f8ca51"/>
+    <managerType typeId="e0520000-c528-480c-88ea-2d09c426270b" valueTypeId="ba0e9ac1-39c9-49d3-b133-78e1fa769179"/>
+    <recordSetType typeId="a1fa886a-a77f-49ff-9141-2f3df78270d6" valueTypeId="de45e5a4-598f-47d2-a232-ab8e2308fba8"/>
+    <recordKeyType typeId="03aaae87-868b-4558-b218-8e1654f529f2" valueTypeId="d985e874-51e3-4ceb-86e7-ce9526694327"/>
+    <recordType typeId="0b03ce88-16be-49e8-9325-746be1f17610" valueTypeId="493a8d97-404b-49d4-a600-39bb05931695"/>
+    <recordManagerType typeId="68a61238-8a5a-4c51-8853-b8af5de0e199" valueTypeId="2f47adc4-8901-47d1-b4d9-7a419c106f9d"/>
+  </producedTypes>
+  <name>СловаПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Слова писем</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="98bdb0c8-8716-4a12-8dc1-f388f8b4663a">
+    <name>Слово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слово</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="d9272df2-85ca-4871-b42d-8fc5bcb7da89">
+    <name>Письмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42a00299-ba04-405b-8ba7-594c48119eb7">
+    <name>НомерСлова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер слова</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

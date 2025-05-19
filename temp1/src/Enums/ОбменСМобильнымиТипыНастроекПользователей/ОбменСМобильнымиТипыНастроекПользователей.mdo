@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e3ff09c-60ba-42b5-8c5c-2d3711041e52">
+  <producedTypes>
+    <refType typeId="a2fca64d-579f-4da5-bccb-cfd449a27f2e" valueTypeId="21d43ebb-8c86-4a59-a505-de78498c27cd"/>
+    <listType typeId="ba496f74-23c4-41db-9dc1-eabffd0b9336" valueTypeId="75fcee41-04f4-4769-96e9-48e273117cdb"/>
+    <managerType typeId="9b4b7685-ffca-48c2-a4e8-aba1646c0116" valueTypeId="c30ad70a-5a3e-424f-9a42-83e720512dcc"/>
+  </producedTypes>
+  <name>ОбменСМобильнымиТипыНастроекПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильными типы настроек пользователей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b45bbbf5-91c6-49bb-bfbb-28d1c03791e4">
+    <name>МаксимальныйРазмерФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный размер файлов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0da0bda5-eee3-4367-81ea-3f601d999052">
+    <name>ОграничениеФорматовПередаваемыхФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение форматов передаваемых файлов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6a6f68d-dc8c-4fc2-b087-ee6fca7f36ba">
+    <name>ПериодПервичнойЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период первичной загрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60bf5e69-a32a-43e0-8320-12e1e7770fc2">
+    <name>ПодробныйПротоколОбменаСМобильнымУстройством</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробный протокол обмена с мобильным устройством</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba6acf11-8a1c-4936-91d1-78e4b4518c83">
+    <name>СинхронизацияЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация задач</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3eef13cb-4433-403c-b064-16a2e7cea046">
+    <name>СинхронизацияКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация календаря</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4523508b-b376-410d-8998-0aa9b7599178">
+    <name>СинхронизацияКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация контроля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe7d767c-f5c8-47fa-abd6-5e3629bef780">
+    <name>СинхронизацияПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация почты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85abea3e-e1b2-4a3a-a740-a92d51432046">
+    <name>СрокУстареванияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок устаревания данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1778431e-e4ba-41dd-8386-f7276f93859e">
+    <name>ФорматыПередаваемыхФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматы передаваемых файлов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5022f891-741d-4c26-bfef-9c16a30d5ca4">
+    <name>ИспользоватьPushУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать Push-уведомления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

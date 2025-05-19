@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c88a4a8-7af5-48cd-ad94-ce8bd2f870d7">
+  <name>ИспользоватьКонтрольОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль объектов</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонтрольОбъектов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.КешИнформацииОбОбъектах.Resource.СостояниеКонтроля</content>
+  <content>InformationRegister.КешИнформацииОбОбъектах.Resource.СрокИсполнения</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c148d08b-735d-40f2-a7a4-154466454ffd">
+  <producedTypes>
+    <refType typeId="d2627a47-dcf2-410f-a1b2-d6c1d0a8a62e" valueTypeId="1dfa2bc7-55ae-4ae3-8e53-3dfa84145ac2"/>
+    <listType typeId="9c554809-9d1e-44cc-b174-fe9d7435df04" valueTypeId="283626e4-6471-41a4-a9a0-daf2f897d714"/>
+    <managerType typeId="bb3d001f-5ad4-4e21-ac13-66aca85b5320" valueTypeId="6943a016-cb7a-4f00-9877-4d2646161705"/>
+  </producedTypes>
+  <name>ВариантыПримененияПравилаПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты применения правила писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e5fa91db-8aeb-419d-8eb9-46c96f6adcad">
+    <name>КоВсемПисьмам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ко всем письмам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c99d95b3-0d2f-4ec0-bf04-a3afb2eda54f">
+    <name>ТолькоКНепрочитаннымПисьмам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только к непрочитанным письмам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccbf3f8f-f4bb-4c01-9332-acab37a56c3b">
+    <name>ТолькоКПрочитаннымПисьмам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только к прочитанным письмам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

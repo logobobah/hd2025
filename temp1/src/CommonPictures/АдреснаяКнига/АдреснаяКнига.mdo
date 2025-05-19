@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e41821fb-6817-4870-8ef7-fbf663c2fff9">
+  <name>АдреснаяКнига</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресная книга</value>
+  </synonym>
+</mdclass:CommonPicture>

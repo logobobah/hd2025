@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="004b7fc1-c57e-45e8-af7b-f016c987a7dc">
+  <producedTypes>
+    <refType typeId="5f606bf7-053c-492b-b452-7c8f181f29f7" valueTypeId="ac9266cb-052b-49e7-8d90-46a74487ef42"/>
+    <listType typeId="72fcfdbd-dcc1-4eb5-a85b-2200c71d219d" valueTypeId="2f790de9-a0bf-43c8-9513-4f90f1ba93d7"/>
+    <managerType typeId="5a8bbd9b-bf04-4079-916a-78cda5ddfce5" valueTypeId="e23300b0-f715-470b-8cd6-78b0b1f64052"/>
+  </producedTypes>
+  <name>АвтоматизацияВидыКомандСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды команд сценариев (автоматизация)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3db4f169-a8da-4c1c-b09c-00c4461ffced">
+    <name>ВключитьОтключитьСценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вкл/откл сценарий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="745e411f-a4c2-4256-b52e-2102cb0d7dd2">
+    <name>ВыполнитьКодИзВнешнейОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить код из внешней обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ab4f177-78d4-47ee-a1db-22de3fee0e11">
+    <name>ВыполнитьПрограммныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить программный код</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90dde728-6cfb-4387-8b20-fa663346f664">
+    <name>ВыполнитьПрограммныйКодВФоне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить программный код фоновым заданием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b2732e0-a47e-457b-b57c-fcd4c00950d7">
+    <name>ВыполнитьСписокКоманд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить список команд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cce96a2b-21ae-430a-8708-692f0083b7c7">
+    <name>ЗаполнитьИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить источник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b259353-2c2d-4c6d-899c-ff9e61ca43bf">
+    <name>ЗапуститьСценарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запустить сценарии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97ca4f2f-0eb1-400e-a5b6-626df7f768ef">
+    <name>ОтправитьЭлектронноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить электронное письмо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d77a9912-9386-48c2-bb70-b6fb9e3e8ce8">
+    <name>ПроверитьЗаполнениеИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить заполнение источника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6c5d75b-84bd-4b7e-9a96-bb30f70713d9">
+    <name>СоздатьЗадачу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать задачу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a742df25-1b2c-489d-95b1-cd2abbd468da">
+    <name>СоздатьНапоминаниеПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать напоминание пользователю</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

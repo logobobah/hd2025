@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a8637ca-45ad-4d9d-8a68-6db6d81464ee">
+  <producedTypes>
+    <selectionType typeId="8674a14a-32ea-4c10-8d4d-a512c31e98ef" valueTypeId="374a2dd0-d9a6-43fe-9f4c-2680561930ec"/>
+    <listType typeId="e8e8f0bd-2540-4af1-b7ce-16a5d747d5f3" valueTypeId="0d15d997-015f-48cc-8d27-78627fbc9577"/>
+    <managerType typeId="caed9cec-fb3d-4c1e-9879-252706b29720" valueTypeId="259535ab-d658-43e5-8bd4-786ddc8debce"/>
+    <recordSetType typeId="23962cf6-f7eb-4e6c-b956-85ddacdaa8f7" valueTypeId="061d6b96-3cea-4799-a949-a73a9e32b175"/>
+    <recordKeyType typeId="093390a1-4f36-481a-86bd-3dbe7ea9842c" valueTypeId="163f8bde-d2f9-49f3-839a-e41d7a151b39"/>
+    <recordType typeId="9c7f2871-a7bc-4206-97d7-6ada9e5b1fc4" valueTypeId="7a19af0b-29b4-4109-8c26-4bebafee6484"/>
+    <recordManagerType typeId="9df0887d-1170-400e-b34e-6b8ec3569683" valueTypeId="520c44e8-37c1-4b33-aa89-655011dd1dea"/>
+  </producedTypes>
+  <name>НастройкаСвязей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки связей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкаСвязей.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкаСвязей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка связи</value>
+  </recordPresentation>
+  <resources uuid="31cf82da-31a1-4c30-abf9-0a1b9100a6b4">
+    <name>ХарактерСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характер связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ХарактерСвязей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d5ad67ea-afb7-4cab-8e2f-0fa11b6686ff">
+    <name>ТипОбратнойСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип обратной связи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСвязей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="13189345-0eed-4bc7-b2f9-76b5d1bd7c56">
+    <name>ХарактерОбратнойСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характер обратной связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ХарактерСвязей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8b72a805-9fc4-4de5-9072-48c2b9f10d1d">
+    <name>Предопределенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5b331cc1-db5c-400c-bf73-074e3bfc4817">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="b4886498-654d-4e27-aa8e-14215a27b3f8">
+    <name>Обязательная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="dff4a963-b2e9-45d9-a5c2-e47931d91578">
+    <name>ТипСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип связи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСвязей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="be6bcb82-7b46-429c-8622-a5cd07f0608d">
+    <name>СсылкаИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка из</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+      <types>CatalogRef.Файлы</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="19acb94f-afc2-449e-ae11-9ec2e1c6618a">
+    <name>СсылкаНа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+      <types>CatalogRef.Файлы</types>
+      <types>String</types>
+      <types>CatalogRef.Проекты</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e9e22020-7df4-4180-b5fc-f23dfbd1340f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d967e05-3deb-4117-ab46-9dfc2f6b6748">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6bd5380-9f0e-45f9-9a88-7ca37213e6dd">
+    <name>ФормаНастройкаТипСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройка тип связи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d6fe354e-16dd-46e2-8fa4-04ea108310d1">
+    <name>ОткрытьФормуСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки связей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e59ecab5-563e-477f-839a-4b55ac0750bc">
+    <name>ОткрытьФормуНастройкаТипаСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки связей</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

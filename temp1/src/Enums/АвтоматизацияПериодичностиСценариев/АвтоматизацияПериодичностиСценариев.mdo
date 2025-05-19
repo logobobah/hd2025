@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d54a460-a034-468f-92de-a23385ecb098">
+  <producedTypes>
+    <refType typeId="fcb970e9-cd43-4a95-8bf9-67ce8fb99c9c" valueTypeId="9a904642-5962-42c0-838f-2004067009bc"/>
+    <listType typeId="daa73ce3-c1e0-4da4-9b02-1eed6b0aeb01" valueTypeId="2a29295d-402a-481e-92fb-6c5551a549e0"/>
+    <managerType typeId="467eae75-d657-4f50-88f3-4468d93dd1d8" valueTypeId="3d4a7a8a-9e25-4f2b-9f43-dcf214c06e93"/>
+  </producedTypes>
+  <name>АвтоматизацияПериодичностиСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичности расписаний сценариев (автоматизация)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="edbf9d22-2108-4b26-a1eb-cf8b0b986e6b">
+    <name>Ежедневно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежедневно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce2d55cc-09a5-4f8d-8cfd-5332d28ad755">
+    <name>Еженедельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e26a6121-fa64-4111-b0d3-a47f9ff7583b">
+    <name>Ежемесячно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edc938ce-2660-41d5-8d7b-8f86b5e70005">
+    <name>Произвольное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

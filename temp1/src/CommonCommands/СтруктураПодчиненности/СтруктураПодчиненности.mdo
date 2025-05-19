@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88959b5e-986c-4e65-8fe0-45446d03def9">
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <group>CommandGroup.Перейти</group>
+  <commandParameterType>
+    <types>DocumentRef.Задачи</types>
+    <types>DocumentRef.Трудозатраты</types>
+    <types>DocumentRef.ВходящееПисьмо</types>
+    <types>DocumentRef.ИсходящееПисьмо</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к иерархическому списку связанных документов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Структура</picture>
+  </picture>
+</mdclass:CommonCommand>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba9f150-73f1-4b5b-a961-3f5396af6fc4">
+  <name>Автоматизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.АвтоматизацияСервер</content>
+  <content>EventSubscription.АвтоматизацияПередЗаписьюДокумента</content>
+  <content>EventSubscription.АвтоматизацияПередЗаписьюСправочника</content>
+  <content>EventSubscription.АвтоматизацияПриЗаписиДокументаСправочника</content>
+  <content>ScheduledJob.Автоматизация</content>
+  <content>Constant.АвтоматизацияСрокХраненияЗаписейЖурнала</content>
+  <content>Enum.АвтоматизацияВидыСобытий</content>
+  <content>Enum.АвтоматизацияВидыЗаписейЖурнала</content>
+  <content>Enum.АвтоматизацияВидыКомандСценариев</content>
+  <content>Catalog.АвтоматизацияКоманды</content>
+  <content>Catalog.АвтоматизацияСценарии</content>
+  <content>InformationRegister.АвтоматизацияЖурнал</content>
+  <content>Role.АвтоматизацияЧтениеСценариев</content>
+  <content>Role.АвтоматизацияДобавлениеИзменениеСценариев</content>
+  <content>CommonModule.АвтоматизацияПовтИсп</content>
+  <content>Enum.АвтоматизацияВидыПолучателей</content>
+  <content>Enum.АвтоматизацияПериодичностиСценариев</content>
+  <content>Catalog.АвтоматизацияУсловия</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

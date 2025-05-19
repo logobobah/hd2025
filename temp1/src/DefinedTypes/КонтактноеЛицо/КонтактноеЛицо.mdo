@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0712a0c8-a3ec-4751-a80a-611245270ebc">
+  <producedTypes>
+    <containerType typeId="386e05a7-4550-48c0-b4b6-7c9a7e0c7250" valueTypeId="0a2be5c1-f32c-453a-a06b-690fd2d13c7d"/>
+  </producedTypes>
+  <name>КонтактноеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактное лицо</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Заказчики</types>
+    <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+    <types>String</types>
+    <types>CatalogRef.Пользователи</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

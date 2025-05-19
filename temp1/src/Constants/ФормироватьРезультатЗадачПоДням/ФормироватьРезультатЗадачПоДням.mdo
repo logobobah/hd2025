@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4f76a4b-23a5-4ef7-b395-472d39db619c">
+  <producedTypes>
+    <managerType typeId="48d381bf-0763-4e83-86de-95f5a314983c" valueTypeId="baee1937-fc96-4cda-9d1a-b751dee74ca5"/>
+    <valueManagerType typeId="c84c148d-c6ce-4a13-b462-e0a7b5f9cb30" valueTypeId="0accfa6f-1610-4389-999a-6a21efdbfdd4"/>
+    <valueKeyType typeId="7107d3a5-6644-58d2-a1ef-a61314f1dc51" valueTypeId="026d4732-2e4f-5fe6-8f0e-75a39115ca23"/>
+  </producedTypes>
+  <name>ФормироватьРезультатЗадачПоДням</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формировать результат задач по дням</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>При установленной галочке в поле &quot;Результат выполнения&quot; на форме задачи введенный текст будет разбиваться по дням.</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>При установленной галочке в поле &quot;Результат выполнения&quot; на форме задачи введенный текст будет разбиваться по дням.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

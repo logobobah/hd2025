@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="285a12df-de47-4e56-adf8-1e484ce2d4a2">
+  <name>РаботаСАдреснойКнигойПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с адресной книгой переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

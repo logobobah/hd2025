@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca520d7f-01c5-44eb-9601-35ff466fce6b">
+  <producedTypes>
+    <selectionType typeId="1c7bdfaf-2dad-4bf2-9632-cf7d4e58e8c4" valueTypeId="659c7e75-2633-43ac-9185-506b91bdb25b"/>
+    <listType typeId="3086b9ce-0cfa-4b48-acac-681067f0c955" valueTypeId="5fe2231c-bdfe-48fa-a648-c8c302e226e6"/>
+    <managerType typeId="2100b767-e43a-468b-b768-3e8751c5b9ff" valueTypeId="30649599-eea4-4bf6-90f5-114996afb5fa"/>
+    <recordSetType typeId="3146c6bb-1c16-4536-971e-79c95c91aa47" valueTypeId="842bf2b3-4f7a-4578-837c-fc8ecc5b69d7"/>
+    <recordKeyType typeId="340482cd-b06d-4b47-9793-2b35b8db6cb6" valueTypeId="caf49648-0ba5-4ac5-99ce-e39435311771"/>
+    <recordType typeId="c6c005da-d401-4c3b-965f-ac6edbf540bf" valueTypeId="b1f08637-aa85-4c6e-bcdf-968bd1800804"/>
+    <recordManagerType typeId="8b1a505b-d343-4f3a-9520-af55c8e2f9d5" valueTypeId="d6a80871-199f-437c-8c0f-439afdf3c8d0"/>
+  </producedTypes>
+  <name>СведенияОПрочтении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о прочтении</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="98551975-5e27-4524-add2-1d24c5fb56ee">
+    <name>Прочтен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочтен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние прочтения объекта пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="3f3d39f2-0c31-466f-99ee-d3e99e089e9b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, к которому относятся сведения о прочтении</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd424299-09c3-4fc0-96ca-5ed348977e64">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыОбсуждений</types>
+      <types>DocumentRef.ВходящееПисьмо</types>
+      <types>DocumentRef.ИсходящееПисьмо</types>
+      <types>CatalogRef.СообщенияОбсуждений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, к которому относятся сведения о прочтении</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

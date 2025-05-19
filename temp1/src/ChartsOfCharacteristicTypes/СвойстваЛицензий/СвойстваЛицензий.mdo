@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91960fe6-4c4e-45de-b927-747c68941478">
+  <producedTypes>
+    <objectType typeId="6525e62f-da0f-4d8f-9980-633c5b9b9551" valueTypeId="20997c3e-2fcc-41fc-81b4-3a5cbb9c7c64"/>
+    <refType typeId="9662114a-2554-410a-a663-204ae5f2590e" valueTypeId="e3510588-2d8e-41b7-89c9-13d65fbe5157"/>
+    <selectionType typeId="a21e19f4-289e-45b0-9f4d-f31d671dbe8c" valueTypeId="175d286c-4b41-44d8-8a07-81a978e1b5e1"/>
+    <listType typeId="761ddb58-f486-48e4-91a9-2190311c5b1b" valueTypeId="b275a14a-af9f-4104-ac23-d27c9d7e77ce"/>
+    <managerType typeId="efd6f8b5-4ea4-4670-bd20-516ad09094ee" valueTypeId="0c02ac21-90f7-4c97-98cd-e069fc897e0b"/>
+    <containerType typeId="8791a849-6c62-4a0f-a080-22eb5221890b" valueTypeId="1af3b620-b0cc-45eb-b204-cef52bb0c322"/>
+  </producedTypes>
+  <name>СвойстваЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства лицензий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваЛицензий.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваЛицензий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойствЛицензий</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ЗначенияСвойствЛицензий</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

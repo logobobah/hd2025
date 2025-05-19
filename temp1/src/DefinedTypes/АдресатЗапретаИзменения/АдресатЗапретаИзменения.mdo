@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b90a57e-1d9e-4481-af1c-331326757f62">
+  <producedTypes>
+    <containerType typeId="a2216c0c-103c-49fc-8159-d388892a15bf" valueTypeId="ff8d28bc-83a5-41fb-9ad4-c71650dc4721"/>
+  </producedTypes>
+  <name>АдресатЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресат запрета изменения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВнешниеПользователи</types>
+    <types>EnumRef.ВидыНазначенияДатЗапрета</types>
+    <types>CatalogRef.ГруппыВнешнихПользователей</types>
+    <types>CatalogRef.ГруппыПользователей</types>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

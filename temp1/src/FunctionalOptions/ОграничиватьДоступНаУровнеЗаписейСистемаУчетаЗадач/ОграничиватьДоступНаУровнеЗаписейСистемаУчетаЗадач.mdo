@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2c5719f-6e1b-4036-aadc-bafcc42eb09c">
+  <name>ОграничиватьДоступНаУровнеЗаписейСистемаУчетаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ на уровне записей система учета задач</value>
+  </synonym>
+  <location>Constant.ОграничиватьДоступНаУровнеЗаписей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Проекты.Attribute.ГруппаДоступа</content>
+  <content>Catalog.Заказчики.Attribute.ГруппаДоступа</content>
+</mdclass:FunctionalOption>

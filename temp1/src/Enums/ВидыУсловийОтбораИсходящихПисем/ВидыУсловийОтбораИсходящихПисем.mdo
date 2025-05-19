@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b52b5c12-0040-4278-a845-5713e246ff46">
+  <producedTypes>
+    <refType typeId="6b33ac45-81c1-4b7d-b418-e6673e5dfb8e" valueTypeId="30ad35a5-b8f7-4fe4-9ac8-fb67c51412a9"/>
+    <listType typeId="b47d97d1-0c32-4a78-bf59-4839be468395" valueTypeId="e29701f3-d738-4d04-b9df-ce97279de4a9"/>
+    <managerType typeId="57687ac3-ce46-4744-9e79-c0927c22b9c4" valueTypeId="b2b36ca4-488c-4809-862e-05b880dc84a4"/>
+  </producedTypes>
+  <name>ВидыУсловийОтбораИсходящихПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды условий отбора исходящих писем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ae35cf07-9925-4db0-83c9-c12a7f3a95cd">
+    <name>ТемаСодержитУказанныеСлова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема содержит текст:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fe9a18f-c9e6-4a29-9ba4-246ce4b6a370">
+    <name>ОтправленоНаУказанныеАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес получателя содержит:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a476a25b-3b88-4c9d-89a5-f155af60fba1">
+    <name>ПолучательВходитВГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель входит в одну из групп:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f884d14-e6f6-4c1d-8286-15c4054c4eb7">
+    <name>ТекстСодержитУказанныеСлова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма содержит:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06088022-5aa6-410d-a76b-370dd3e8ff3e">
+    <name>ОтправленоВТечениеУказанногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено в течение периода:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1735f6fd-a8fc-4db6-b57e-4cd3339d0ce2">
+    <name>ИмеетВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имеет вложения:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4da024d3-6f77-4620-9806-95450d640720">
+    <name>ТолькоДляПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только для пользователей:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1c7124f-4a85-4697-a3bd-8776d464e186">
+    <name>ЯвляетсяОтветомНаПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является ответом на письмо:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="667c0116-fb43-4cdf-bd21-329fc53f3b69">
+    <name>ПересылаетВходящееПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересылает входящее письмо:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be73f483-d68e-41af-97a0-88e553a37088">
+    <name>ПересылаетИсходящееПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересылает исходящее письмо:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db4f822c-f853-4266-9fdf-3266d8f28304">
+    <name>ТемаНачинаетсяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема начинается с:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dcfb5fa-c4cf-4bb4-9926-a37825d4c64a">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9da10f4c-6277-4182-878f-140016b0e2c3">
+    <name>БылНаправленОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>На письмо был отправлен ответ:</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f051b70-8ee0-4b27-9380-a4ff86443b7c">
+    <name>БылоПереслано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо было переслано:</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

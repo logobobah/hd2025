@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ce17a5a-1e82-412c-8110-5c559de24302">
+  <producedTypes>
+    <objectType typeId="ac8afc6e-e7cb-4f94-91f3-48a198a0d296" valueTypeId="59c86e06-749c-447c-8d05-84c72012e25c"/>
+    <managerType typeId="42f62413-76ee-45b8-a1ca-c0de9b2bbc12" valueTypeId="45cfe679-2edb-4625-bebb-d84c22a7c39b"/>
+  </producedTypes>
+  <name>РаботаССекретами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с секретами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаССекретами.Form.Форма</defaultForm>
+  <forms uuid="0dbfb2c8-81ab-43f5-a3b0-e99f509476d8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6b721f43-5ee3-41e6-b894-569d0af690d4">
+    <name>ТабличныйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

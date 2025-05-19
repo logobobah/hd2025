@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10c8b89e-f58e-4be8-a96d-3c1b6da6f33f">
+  <producedTypes>
+    <selectionType typeId="6c1f40d6-be5c-4b58-9335-8d3106266882" valueTypeId="fd986406-c05f-4652-b434-119ee1c7692b"/>
+    <listType typeId="ae85d490-ee66-42d2-ba2b-44eac989fb79" valueTypeId="a1129aef-3398-4f9e-aa21-d44f6c928f88"/>
+    <managerType typeId="38a316eb-6f46-45be-8739-c5e004642041" valueTypeId="185a1463-2c5f-4209-8509-d4ae3d6497f1"/>
+    <recordSetType typeId="f5ad64e7-ac6b-4152-ad73-f55c1a69d4db" valueTypeId="33382248-9c7e-4869-8b32-ca59deb1a071"/>
+    <recordKeyType typeId="7772bbb3-8cb6-4ca4-ac4b-830fdf976239" valueTypeId="190f6c11-fc7b-449e-8e36-8aaaa863fd1b"/>
+    <recordType typeId="ef735052-8d91-461d-a337-82d57c6cba94" valueTypeId="8840550b-af3c-4ec9-b411-e7b170a672fc"/>
+    <recordManagerType typeId="f585b134-b790-4000-81ef-f4a6f6e9036f" valueTypeId="bbc4443b-611a-4a22-8bfe-bb138693c0de"/>
+  </producedTypes>
+  <name>ИсторияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>История задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6a69bde4-f662-483d-8acd-dde49dee907e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e6c87f74-ac58-40ab-af03-31f138966e2d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3b7b7c6b-0a9f-42d4-81db-553e6cdf33c7">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="dd6991c2-66b0-4981-97ae-0d89d9784f97">
+    <name>ИсторияСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>История</value>
+    </synonym>
+    <group>CommandGroup.Перейти</group>
+    <commandParameterType>
+      <types>DocumentRef.Задачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ИсторияИзменений</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

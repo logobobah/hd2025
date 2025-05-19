@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="835957d2-ff73-4771-8044-1b4d1a83d5e5">
+  <producedTypes>
+    <managerType typeId="c7970724-c94f-4674-83dd-7e78df457250" valueTypeId="a5359e6c-ec50-412d-9550-ce0a9896b288"/>
+    <valueManagerType typeId="dec5a12a-0e61-4b7d-bab7-281b96ba318c" valueTypeId="e26f707a-9f11-4fa3-b959-b8c38a62899c"/>
+    <valueKeyType typeId="50a24419-98f9-5b4d-91bc-97f48ecf04d2" valueTypeId="8bec9324-f188-5337-a6a7-d6b45934772a"/>
+  </producedTypes>
+  <name>ИспользоватьДатыЗапретаЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать даты запрета загрузки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

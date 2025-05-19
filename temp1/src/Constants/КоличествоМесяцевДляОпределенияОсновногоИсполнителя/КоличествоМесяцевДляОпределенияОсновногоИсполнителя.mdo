@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fd5ef5b-38c8-4204-9543-e4ce47911ba2">
+  <producedTypes>
+    <managerType typeId="f74a765d-f1eb-4622-bdb3-5986dc4cf912" valueTypeId="1e122dc7-9fb7-4ebb-a9ce-81f585f5a5f0"/>
+    <valueManagerType typeId="843266fb-ef1b-478c-9a4b-15bd85364f0e" valueTypeId="f1bf336d-20a5-4d42-bd80-9dc9cef2f10c"/>
+    <valueKeyType typeId="46d3bd71-afa6-43e0-8b3b-164e193c64a3" valueTypeId="bd94e68b-7d94-4dd2-bab1-ab8bb219694a"/>
+  </producedTypes>
+  <name>КоличествоМесяцевДляОпределенияОсновногоИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество месяцев для определения основного исполнителя</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>За указанное количество последних месяцев от текущей даты система будет определять исполнителя, у которого указано больше всего времени в задачах.</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>За указанное количество последних месяцев от текущей даты система будет определять исполнителя, у которого указано больше всего времени в задачах.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

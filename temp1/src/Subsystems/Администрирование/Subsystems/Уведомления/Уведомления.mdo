@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bab888f-94cb-4f61-a840-66ffe4d01ad2">
+  <name>Уведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ОчередьУведомлений</content>
+  <content>InformationRegister.ОбработанныеУведомления</content>
+  <content>Enum.СпособыУведомления</content>
+  <content>Constant.ИспользоватьУведомления</content>
+  <content>FunctionalOption.ИспользоватьУведомленияПользователя</content>
+  <content>ScheduledJob.УведомлениеПользователейОСобытиях</content>
+  <content>ScheduledJob.КонтрольСрокаЗадач</content>
+  <content>CommonModule.РаботаСУведомлениями</content>
+  <content>Enum.СобытияУведомлений</content>
+  <content>Enum.НастройкиУведомлений</content>
+  <content>Constant.РазрешитьИзменятьНастройкиУведомлений</content>
+  <content>CommonForm.НастройкаУведомлений</content>
+  <content>CommonForm.ПодпискаНаУведомленияПоОбъекту</content>
+  <content>CommonModule.РаботаСУведомлениямиПереопределяемый</content>
+  <content>Constant.АдресПубликацииНаВебСервере</content>
+  <content>InformationRegister.НастройкиУведомлений</content>
+  <content>CommonPicture.СпособыУведомления</content>
+  <content>CommonModule.РаботаСУведомлениямиКлиентСервер</content>
+  <content>Enum.ВидыУведомленийПрограммы</content>
+  <content>Catalog.УведомленияПрограммы</content>
+  <content>CommonModule.ОбщийОбработчикОжиданияВызовСервера</content>
+  <content>CommonModule.ОбщийОбработчикОжиданияГлобальный</content>
+  <content>CommonModule.ОбщийОбработчикОжиданияКлиент</content>
+  <content>DefinedType.ОбъектУведомления</content>
+  <content>Catalog.ВидыБизнесСобытий</content>
+  <content>Constant.ИспользоватьУведомленияЗаказчиков</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

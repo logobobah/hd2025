@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="458bc149-2cd2-4c46-b95a-21c9dc207de5">
+  <producedTypes>
+    <selectionType typeId="cc6879d3-541c-4c1f-a7b4-0ce8b6e37ad1" valueTypeId="3bd6aa7f-7421-4d52-937f-0d26e424da71"/>
+    <listType typeId="cbdec9d8-d1b1-4b29-8588-46a00f1e54da" valueTypeId="b595daad-ea9c-4d20-8aae-abacfebedf55"/>
+    <managerType typeId="eac5c2fb-33f1-43c4-94b5-8b5b43328b7f" valueTypeId="3157dae9-379b-4974-9b73-e3cd8cd1b424"/>
+    <recordSetType typeId="d4bdb62d-f163-477f-9004-b8f1728d2edc" valueTypeId="cdedf8ae-c584-45c8-b1dd-9aed472d2e36"/>
+    <recordKeyType typeId="8798bd03-98b1-4cd6-a278-ca810bdc9103" valueTypeId="c60b0ea7-9206-4a13-bb3f-0c01f89afc7a"/>
+    <recordType typeId="68801c3a-46e2-429f-acb5-6f7d3603fa4c" valueTypeId="17e2c130-ca08-469c-ad1f-d4e5a0c793d2"/>
+    <recordManagerType typeId="d0bb3feb-97b1-4935-ae46-c2565f300423" valueTypeId="5d3b46a2-c244-4614-9dc0-b7396b9f8523"/>
+  </producedTypes>
+  <name>ОбработанныеУчетныеЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработанные учетные записи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="651fd3db-93a5-46d0-ae2d-54e6e557fcbb">
+    <name>ДатаПоследнейОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней обработки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="2797171f-d794-48ab-b17b-45fc68bd9558">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

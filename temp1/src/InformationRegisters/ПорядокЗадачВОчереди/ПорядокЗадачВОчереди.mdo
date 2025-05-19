@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d87b80ec-6ba6-4313-9c06-be9a20d00828">
+  <producedTypes>
+    <selectionType typeId="e60ed235-a55e-4192-963c-14260e96dc19" valueTypeId="28985eb6-dbfe-4598-8b9e-8af421a53298"/>
+    <listType typeId="c0091e6e-f6ae-4190-a91f-38d2daf2015b" valueTypeId="424959e8-02c3-4917-8c27-6b288282c0c8"/>
+    <managerType typeId="1ab27d5b-8a24-4dc0-90cb-c96372a832a2" valueTypeId="d0269dd8-74f2-40e7-bbca-4970c0b0d27e"/>
+    <recordSetType typeId="5f6e4b53-cec9-4b5c-b71c-b4ae98fbcec8" valueTypeId="93330e22-0d32-4192-8cf5-06f5a00c98b6"/>
+    <recordKeyType typeId="b8a2fe66-a7e7-42b0-bcd5-e32a7ffdd267" valueTypeId="89dd6606-550f-44e0-8ecb-0cbd3ce20fb6"/>
+    <recordType typeId="ad203403-28eb-4927-92d6-bdf5e0e80cda" valueTypeId="ca95164d-1e45-4d1e-9705-8e4b09e2d9c1"/>
+    <recordManagerType typeId="5393e662-7dd2-4cae-908b-c8f5a0adea49" valueTypeId="269a4057-e4fc-49be-a23f-53ed0a16ef8f"/>
+  </producedTypes>
+  <name>ПорядокЗадачВОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок задач в очереди</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b54d50d9-03ee-4040-8583-ca1577b111f3">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3e724a82-659e-40da-94fe-bc840a455df7">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f94b85b1-c257-4259-a6db-0ddfc0ce957c">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd76afff-5437-4a9e-8042-fa86fa5000ea">
+  <producedTypes>
+    <refType typeId="222cfff0-dddc-4124-91a7-37a419d51705" valueTypeId="eefe6b33-70d2-4126-afcc-8ac12e5740db"/>
+    <listType typeId="1e1ddbb6-dfdc-4a20-843a-dcc5c572ece5" valueTypeId="d6ebcd3b-1188-45a9-afd1-0923846cd129"/>
+    <managerType typeId="f2c08907-061a-443e-82bc-9a143d291b33" valueTypeId="44fa2434-4e15-4f7c-8a34-cdeb7ca44fd5"/>
+  </producedTypes>
+  <name>ПравилаОкончанияПовторения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила окончания повторения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="854492a6-3168-4dc5-afcd-4ee40020dd55">
+    <name>Никогда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никогда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68971013-25d9-4612-b68b-b13b89de3ba8">
+    <name>ПослеЧислаПовторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>После числа повторов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25f36c62-e896-4aaf-983d-e8a6238e41fd">
+    <name>ДоДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>До даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

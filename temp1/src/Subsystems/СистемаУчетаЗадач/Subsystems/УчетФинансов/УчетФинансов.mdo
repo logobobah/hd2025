@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="183771ae-3975-4c46-b69b-53473b31f1f6">
+  <name>УчетФинансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет финансов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЧасовыеСтавкиЗадач</content>
+  <content>Report.АнализВыполненияЗадач</content>
+  <content>Document.Трудозатраты</content>
+  <content>Enum.СостоянияТрудозатрат</content>
+  <content>Catalog.Организации</content>
+  <content>Report.АнализДоходовИсполнителей</content>
+  <content>Role.ПросмотрУчетаФинансов</content>
+  <content>AccumulationRegister.ДоходыИсполнителей</content>
+  <content>Report.УчетТрудозатрат</content>
+  <parentSubsystem>Subsystem.СистемаУчетаЗадач</parentSubsystem>
+</mdclass:Subsystem>

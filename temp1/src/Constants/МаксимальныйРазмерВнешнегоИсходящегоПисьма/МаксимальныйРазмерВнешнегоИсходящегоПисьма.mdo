@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c350b29f-6359-423a-9cb2-0b6d37c4339e">
+  <producedTypes>
+    <managerType typeId="795a7423-1798-4986-bd60-d6e8cbc7bd99" valueTypeId="dc558caa-0cae-48f6-9151-6f4b2849c4ee"/>
+    <valueManagerType typeId="06d0abdb-f628-4196-9b5b-60de808c9c36" valueTypeId="e1d90bbc-7b63-45c8-9265-fbccd0e90551"/>
+    <valueKeyType typeId="93bcb1b2-ce5a-55c1-a39c-05344200928f" valueTypeId="4e2b66eb-bd2f-59bd-8c97-eb34429b6daf"/>
+  </producedTypes>
+  <name>МаксимальныйРазмерВнешнегоИсходящегоПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный размер внешнего исходящего письма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

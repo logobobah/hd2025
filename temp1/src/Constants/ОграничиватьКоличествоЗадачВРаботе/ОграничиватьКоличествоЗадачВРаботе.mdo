@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fdb4122-44ca-4462-8ce8-44f76654dde4">
+  <producedTypes>
+    <managerType typeId="a46d84dc-763e-4e99-a733-149867023546" valueTypeId="e162ef3b-6d85-4c10-980f-2c5483deedd1"/>
+    <valueManagerType typeId="6c0022c7-dbd4-41bb-98a9-2c0ea7710ceb" valueTypeId="95bd63ca-27f0-4d02-be11-670b52351966"/>
+    <valueKeyType typeId="3401c5fa-bdb3-54f7-ad62-1e9f908bda80" valueTypeId="b7bb1f23-2ca8-5084-938a-6544cbca0363"/>
+  </producedTypes>
+  <name>ОграничиватьКоличествоЗадачВРаботе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать количество задач в работе</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e9a9de2-7d3b-46eb-8a21-7ee002bfeb3e">
+  <name>СоздатьПисьмоНаОсновании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Письмо</value>
+  </synonym>
+  <group>CommandGroup.Органайзер</group>
+  <commandParameterType>
+    <types>CatalogRef.Заказчики</types>
+    <types>DocumentRef.Задачи</types>
+    <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+    <types>CatalogRef.ШаблоныЗадач</types>
+    <types>CatalogRef.СообщенияОбсуждений</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Проекты</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Создать письмо</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЭлектронноеПисьмоИсходящее</picture>
+  </picture>
+</mdclass:CommonCommand>

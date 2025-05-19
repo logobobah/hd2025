@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="506925e2-bb25-49c0-8d10-3193cbe11f65">
+  <producedTypes>
+    <objectType typeId="168c8afc-f5a8-4461-85b0-66fd8af06a6f" valueTypeId="ec381219-52ab-4db4-b9a5-39f394f69792"/>
+    <managerType typeId="40543175-fc6b-493d-87b0-cd949f3dcd21" valueTypeId="f1789a99-e75b-44fd-b08e-db0706b45eca"/>
+  </producedTypes>
+  <name>КонтрольСрокаПодписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль срока подписок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КонтрольСрокаПодписок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e4557aa5-8b1c-45c1-8f5a-66b0c6fe8cae">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

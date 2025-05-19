@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f60d2c22-fa70-491e-a246-0e69d23fe88a">
+  <producedTypes>
+    <objectType typeId="9ec5ac95-565e-460a-8d4f-aa0f05cf9603" valueTypeId="427bc1b3-22aa-48b1-8723-a891735793a8"/>
+    <refType typeId="709c3f6e-5e1e-481d-b422-8051ac619f75" valueTypeId="7127a75b-35c4-4570-b9dd-4f82e6a12373"/>
+    <selectionType typeId="b3f76497-3735-44ee-8900-b318e47adcde" valueTypeId="7d0bbf9f-9add-4358-8ebf-1993be34408b"/>
+    <listType typeId="0983665d-a4bd-4ace-b5a5-c8bda57426c0" valueTypeId="6dc0f782-e761-4764-ae46-42fff893a0f5"/>
+    <managerType typeId="679dfacd-7819-48d8-84de-250384b6f1e5" valueTypeId="3281dc18-679e-4328-90dd-60c981f2bce7"/>
+  </producedTypes>
+  <name>РолиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиКонтактныхЛиц.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиКонтактныхЛиц.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Роль контактного лица</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="be6c730e-bedb-48f4-9760-14385c9733bf">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

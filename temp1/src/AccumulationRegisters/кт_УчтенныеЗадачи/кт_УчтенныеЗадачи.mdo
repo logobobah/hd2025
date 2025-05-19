@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3e78f89-ba2d-4b00-9541-937888e19ec0">
+  <producedTypes>
+    <selectionType typeId="39dcb58b-a58e-42c2-bd92-2b2138fae619" valueTypeId="6ed357f4-bc0b-4d74-9e65-78c852388e55"/>
+    <listType typeId="4dbd73c9-125a-4ed0-806b-b0fdaaba5353" valueTypeId="24bba58c-753a-4697-abff-a10d55e7a2b4"/>
+    <managerType typeId="9fa22840-46d8-473c-99de-f49e3b7e8820" valueTypeId="e83d95db-5a52-4db0-a425-90cc1ae24b62"/>
+    <recordSetType typeId="52eb8390-82d0-4002-b688-bd5e15ec8f2e" valueTypeId="309030ee-8ba9-41d6-916f-27462838d61a"/>
+    <recordKeyType typeId="32cf1365-8b60-4220-8ec1-b27552f9649c" valueTypeId="cb8bf09c-684d-4477-9952-3217da023727"/>
+    <recordType typeId="2d46fb31-4d54-47b1-89f1-6f5f6ef2d240" valueTypeId="7b56662b-00e6-4fdc-8ecb-3786e8d9515b"/>
+  </producedTypes>
+  <name>кт_УчтенныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кт учтенные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="ce771099-288f-4343-904a-eac97b863f8c">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

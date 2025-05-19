@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4466ecb6-ab76-4480-b501-d7f47b267320">
+  <producedTypes>
+    <objectType typeId="8e90e24a-105a-467e-b064-dd6372a7139a" valueTypeId="69c4e80b-c41b-43d4-8548-4fbaa5911c05"/>
+    <managerType typeId="4c5bab0c-9a45-48e7-bb9b-fefaa23f92b7" valueTypeId="1dc70703-1721-46a3-89e7-4fd9336b51ec"/>
+  </producedTypes>
+  <name>КонтрольПинКодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль пин-кодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КонтрольПинКодов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0828f5b9-435b-4d7e-acd1-a41c3e460364">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

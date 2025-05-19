@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="278234c2-d4f5-48e7-9028-ff40c23f76b3">
+  <name>ВставитьБезФорматирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить без форматирования</value>
+  </synonym>
+</mdclass:CommonPicture>

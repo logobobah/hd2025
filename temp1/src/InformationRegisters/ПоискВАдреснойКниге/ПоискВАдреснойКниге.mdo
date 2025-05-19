@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50d2dce2-d201-4958-aee3-8d0b0c34f782">
+  <producedTypes>
+    <selectionType typeId="c29cdc51-79f7-4258-8cc8-ea06ddeb1461" valueTypeId="fa7d8e0a-f91f-4c71-ad3c-3c0ae0800982"/>
+    <listType typeId="bdc08542-a04f-4200-a05c-dbdfea8a9ef5" valueTypeId="432dcb50-7c0c-46c0-992d-55188c438c8a"/>
+    <managerType typeId="7633b058-31ad-4e61-88c2-e870896ac874" valueTypeId="cd5c3909-be3f-4342-8c9b-98acbb2723f1"/>
+    <recordSetType typeId="56390995-f8cc-4de8-a6fe-7027bf0bf525" valueTypeId="9cda5905-3e5a-472b-8ea7-d9c1d7b136da"/>
+    <recordKeyType typeId="eb0d9344-c5ac-41c0-93c7-060f8d86ac63" valueTypeId="97ae6861-9f78-4f7f-9796-004c749aa828"/>
+    <recordType typeId="88c817e1-2fb7-42c8-85ae-b7b3129ef867" valueTypeId="4b134384-b315-4151-b5ce-24d5e284af6c"/>
+    <recordManagerType typeId="087ec44c-2901-42e0-b6a3-85926e82284f" valueTypeId="ba269a42-a49b-462e-bca1-de559a32ae41"/>
+  </producedTypes>
+  <name>ПоискВАдреснойКниге</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск в адресной книге</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="ac8ca933-4588-4dcb-926d-759d481f681f">
+    <name>Слово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слово</value>
+    </synonym>
+    <comment>Строка, по которой ищется объект.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>400</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="25bdb2bd-d65d-41d8-9f36-db3e00f9431f">
+    <name>ОбъектДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+      <types>CatalogRef.ЛичныеАдресаты</types>
+      <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f222bb50-5e8a-4f8f-824e-8183e71e0508">
+    <name>ИспользоватьВПоиске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в поиске</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5873db5e-8a3e-44a6-b72d-1f128c56e46f">
+    <name>ОбъектПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект поиска</value>
+    </synonym>
+    <comment>Объект, который можно найти по реквизиту Слово.</comment>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+      <types>CatalogRef.ЛичныеАдресаты</types>
+      <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a056a996-6891-4eb4-a815-c978fdfcc9f5">
+    <name>КритерийПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критерий поиска</value>
+    </synonym>
+    <comment>Критерий, по которому ищется объект поиска. Слово обычно содержит строковое представление критерия поиска. Но могут быть и исключения.</comment>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+      <types>CatalogRef.ЛичныеАдресаты</types>
+      <types>CatalogRef.КонтактныеЛицаЗаказчиков</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="006c64ad-16c0-4bf6-9a1f-e7c1fcfc0b49">
+  <producedTypes>
+    <managerType typeId="ce750d16-7745-4034-80fd-0a169199f98f" valueTypeId="a2342df3-2cc2-4abf-92db-328a92eca20e"/>
+    <valueManagerType typeId="eb81bba0-377a-487a-95af-0d397cfe98b3" valueTypeId="e5d35bbf-a15e-478b-a685-abdfd983e313"/>
+    <valueKeyType typeId="2981ccf4-1afa-523d-9d8f-553c51db631d" valueTypeId="8b71c0f1-32e5-5020-89af-fd75bed8bffe"/>
+  </producedTypes>
+  <name>ПараметрыОграниченияДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры ограничения доступа</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

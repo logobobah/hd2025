@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62bb27b-cc14-462b-83d1-846b4eebaf82">
+  <producedTypes>
+    <managerType typeId="f1190d3a-8f99-49df-8651-acf1767602d6" valueTypeId="771e6827-e6d9-46cc-9878-07547381b0b0"/>
+    <valueManagerType typeId="2cb41195-38cf-418f-9d32-d8d5b5fc5578" valueTypeId="c9b537a4-6b8a-4c93-9acf-8b5ed3edac06"/>
+    <valueKeyType typeId="738d9adb-d8c3-4782-8da7-86d89ed5229a" valueTypeId="275c2278-2697-4999-9823-c6c1b23de41e"/>
+  </producedTypes>
+  <name>ИспользоватьМобильныеКлиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать мобильные клиенты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

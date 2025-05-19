@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95d1feaa-9e39-4228-ac9e-425120917e21">
+  <producedTypes>
+    <objectType typeId="fe45776f-244b-4c19-b21c-00c799204d00" valueTypeId="830d079b-2a1c-4b83-9e9d-3401b65156d0"/>
+    <managerType typeId="359f27e6-bed4-425b-bf7b-a18f88a3de12" valueTypeId="de9ece01-7d7d-4e55-8bc2-060d2f843acb"/>
+  </producedTypes>
+  <name>ДатыЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты запрета изменения</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ДатыЗапретаИзменения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="22d6068b-52fa-4495-8869-b2a49e8cca84">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="96827233-8715-4acb-89cf-3ecf573efce5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

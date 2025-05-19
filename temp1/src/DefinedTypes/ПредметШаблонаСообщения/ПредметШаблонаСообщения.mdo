@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="219a9a70-ad8b-49be-b9c4-a11ecc849bea">
+  <producedTypes>
+    <containerType typeId="bcb97fef-ee29-4856-86c3-730d885aa75b" valueTypeId="8e321936-dc7c-42ae-a691-09834efb9eef"/>
+  </producedTypes>
+  <name>ПредметШаблонаСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет шаблона сообщения</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.Задачи</types>
+    <types>DocumentRef.Трудозатраты</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

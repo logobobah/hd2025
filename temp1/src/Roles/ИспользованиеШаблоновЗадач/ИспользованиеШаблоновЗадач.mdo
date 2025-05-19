@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33d58c58-ee6b-4189-b5b0-3d2cca27309a">
+  <name>ИспользованиеШаблоновЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование шаблонов задач</value>
+  </synonym>
+</mdclass:Role>
