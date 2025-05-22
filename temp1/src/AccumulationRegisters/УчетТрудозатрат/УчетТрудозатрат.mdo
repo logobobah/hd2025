@@ -15,6 +15,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultListForm>AccumulationRegister.УчетТрудозатрат.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>RecordType</name>

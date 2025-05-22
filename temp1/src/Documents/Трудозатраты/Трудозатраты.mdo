@@ -312,6 +312,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="859f3ade-f137-45d6-acda-539f1c34023e">
+    <name>ОплатаПоТарифу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата по тарифу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f606b9a2-ee99-416c-a1c1-24e21a3cf70b">
+    <name>СуммаКорректируемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма корректируемая</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="7bf376d4-e027-458d-8e55-a71ee726688c">
     <name>ФормаДокумента</name>
     <synonym>
