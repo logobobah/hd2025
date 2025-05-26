@@ -108,6 +108,9 @@
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
   <registerRecords>AccumulationRegister.ДоходыИсполнителей</registerRecords>
   <registerRecords>AccumulationRegister.кт_УчтенныеЗадачи</registerRecords>
+  <registerRecords>AccumulationRegister.УчетТрудозатрат</registerRecords>
+  <registerRecords>AccumulationRegister.ФактическиеЧасыПоЗдачам</registerRecords>
+  <registerRecords>AccumulationRegister.ТрудозатратыПланФактические</registerRecords>
   <attributes uuid="48d153a7-af20-44bb-b7d7-e5af96e492ec">
     <name>Автор</name>
     <synonym>

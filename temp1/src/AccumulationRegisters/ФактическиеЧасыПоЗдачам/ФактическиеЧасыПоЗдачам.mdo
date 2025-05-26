@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb743e34-fc9f-48fa-b5ba-79b7e9e724a6">
+  <producedTypes>
+    <selectionType typeId="548dfbcf-daee-458c-8a1f-670f5d3c94e4" valueTypeId="0318770f-1782-4ce0-8384-7140aa12a6f8"/>
+    <listType typeId="cb0e3cf5-4147-45a5-ac38-d9e8aaaf8585" valueTypeId="77b582ab-0aa3-48cc-bca3-85662c7c1f4b"/>
+    <managerType typeId="0d099072-46c9-4c2c-ad36-04c699053984" valueTypeId="5c431ca6-38d0-45a4-bbfe-13069bef8739"/>
+    <recordSetType typeId="32e83415-85f9-46ec-b3be-b4792a9e3302" valueTypeId="47e2fa63-0500-4850-9a1e-24fbe0504c0d"/>
+    <recordKeyType typeId="830036be-27d9-43c5-9131-34459a4730bd" valueTypeId="40e99d48-b2af-4758-b7fe-73eb761f92c6"/>
+    <recordType typeId="4560ade1-bece-4886-905c-46af406bcf89" valueTypeId="328fc6af-1025-4fe6-9d00-81dfb98938a8"/>
+  </producedTypes>
+  <name>ФактическиеЧасыПоЗдачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фактические часы по здачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d39e1ccb-ecba-4072-900c-8a9b44be7490">
+    <name>ЧасыФактические</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы фактические</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b7db8517-b421-4f1c-abba-5d9361fa1d66">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5bcf9355-31e4-4459-a6bd-492b600911d2">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

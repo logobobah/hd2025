@@ -42,7 +42,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
-  <compatibilityMode>8.3.15</compatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="d7454f88-b1de-49a1-866c-53b3d7e48868">
     <name>Русский</name>
     <synonym>
@@ -1806,6 +1806,9 @@
   <accumulationRegisters>AccumulationRegister.ДоходыИсполнителей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.кт_УчтенныеЗадачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетТрудозатрат</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ФактическиеЧасыПоЗдачам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТрудозатратыПланФактические</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Задолженность</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваЛицензий</chartsOfCharacteristicTypes>
