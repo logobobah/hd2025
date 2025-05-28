@@ -1806,7 +1806,7 @@
   <accumulationRegisters>AccumulationRegister.ДоходыИсполнителей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.кт_УчтенныеЗадачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетТрудозатрат</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ФактическиеЧасыПоЗдачам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ФактическиеЧасыПоЗадачам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТрудозатратыПланФактические</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Задолженность</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

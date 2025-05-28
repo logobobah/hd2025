@@ -8,10 +8,10 @@
     <recordKeyType typeId="830036be-27d9-43c5-9131-34459a4730bd" valueTypeId="40e99d48-b2af-4758-b7fe-73eb761f92c6"/>
     <recordType typeId="4560ade1-bece-4886-905c-46af406bcf89" valueTypeId="328fc6af-1025-4fe6-9d00-81dfb98938a8"/>
   </producedTypes>
-  <name>ФактическиеЧасыПоЗдачам</name>
+  <name>ФактическиеЧасыПоЗадачам</name>
   <synonym>
     <key>ru</key>
-    <value>Фактические часы по здачам</value>
+    <value>Фактические часы по задачам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>

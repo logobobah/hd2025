@@ -109,8 +109,9 @@
   <registerRecords>AccumulationRegister.ДоходыИсполнителей</registerRecords>
   <registerRecords>AccumulationRegister.кт_УчтенныеЗадачи</registerRecords>
   <registerRecords>AccumulationRegister.УчетТрудозатрат</registerRecords>
-  <registerRecords>AccumulationRegister.ФактическиеЧасыПоЗдачам</registerRecords>
+  <registerRecords>AccumulationRegister.ФактическиеЧасыПоЗадачам</registerRecords>
   <registerRecords>AccumulationRegister.ТрудозатратыПланФактические</registerRecords>
+  <registerRecords>AccumulationRegister.Задолженность</registerRecords>
   <attributes uuid="48d153a7-af20-44bb-b7d7-e5af96e492ec">
     <name>Автор</name>
     <synonym>
@@ -342,6 +343,24 @@
         <precision>10</precision>
         <scale>2</scale>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95a128cc-eaac-4230-a127-6d4e4f7b96d3">
+    <name>НазначениеПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
