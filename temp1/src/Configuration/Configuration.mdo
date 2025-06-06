@@ -1632,6 +1632,7 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.КонтрольСрокаПодписок</reports>
   <reports>Report.УчетТрудозатрат</reports>
+  <reports>Report.УчетТрудозатрат2</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>

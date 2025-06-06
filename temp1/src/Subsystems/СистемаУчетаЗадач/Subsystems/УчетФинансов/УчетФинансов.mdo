@@ -16,5 +16,6 @@
   <content>Role.ПросмотрУчетаФинансов</content>
   <content>AccumulationRegister.ДоходыИсполнителей</content>
   <content>Report.УчетТрудозатрат</content>
+  <content>Report.УчетТрудозатрат2</content>
   <parentSubsystem>Subsystem.СистемаУчетаЗадач</parentSubsystem>
 </mdclass:Subsystem>
