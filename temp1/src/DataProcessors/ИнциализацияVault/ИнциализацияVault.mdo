@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ec1e3de-0940-4e41-8a00-095b84b29036">
+  <producedTypes>
+    <objectType typeId="2f77405c-8e42-4686-8a08-93cd25af5424" valueTypeId="d6a88a27-5539-4d87-b0a6-8e11393b338e"/>
+    <managerType typeId="1facc4c2-6784-4831-ad9d-5197ba9ac238" valueTypeId="fce8033c-3810-4d1c-ac1e-5662b4a99216"/>
+  </producedTypes>
+  <name>ИнциализацияVault</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инциализация vault</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнциализацияVault.Form.Форма</defaultForm>
+  <forms uuid="76f8d51e-f367-4e0c-8dc1-af1991c989f1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06e3684a-fd2a-4175-8e4b-c3eca7d3246d">
+    <name>ФормаСекретов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма секретов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ca50f7df-010c-4f2d-b30e-132dd290844b">
+    <name>ТабличныйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>
