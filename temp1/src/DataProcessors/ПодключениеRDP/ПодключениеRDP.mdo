@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bd55d1f-0362-4375-a0b2-e80cfe187670">
+  <producedTypes>
+    <objectType typeId="4ca66ed9-741e-4262-b899-5838079fcedb" valueTypeId="8327d5c1-7b99-4185-94ba-9c112c1dd457"/>
+    <managerType typeId="ff274f81-1924-46a6-a8a6-26cdb13321bb" valueTypeId="abbf68d7-8b22-47cb-be59-82448df38262"/>
+  </producedTypes>
+  <name>ПодключениеRDP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение RDP</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодключениеRDP.Form.Форма</defaultForm>
+  <forms uuid="6562abeb-893b-4e67-a6b9-4cbb1ad0c336">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
