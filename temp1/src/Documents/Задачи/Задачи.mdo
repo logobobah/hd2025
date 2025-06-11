@@ -111,9 +111,9 @@
   <defaultObjectForm>Document.Задачи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Document.Задачи.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Document.Задачи.Form.ФормаСписка</defaultChoiceForm>
-  <registerRecords>AccumulationRegister.УчетТрудозатрат</registerRecords>
+  <registerRecords>AccumulationRegister.ТрудозатратыПланФактические</registerRecords>
   <registerRecords>AccumulationRegister.ФактическиеЧасыПоЗадачам</registerRecords>
-  <registerRecords>AccumulationRegister.Задолженность</registerRecords>
+  <registerRecords>AccumulationRegister.УчетТрудозатрат</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="dd1c5117-5c8d-4082-b9e6-03f9cebd6c72">
