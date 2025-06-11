@@ -63,6 +63,10 @@
   <content>Catalog.ПрограммныеПродукты</content>
   <content>Report.КонтрольПинКодов</content>
   <content>Report.УчетТрудозатрат</content>
+  <content>AccumulationRegister.ФактическиеЧасыПоЗадачам</content>
+  <content>AccumulationRegister.Задолженность</content>
+  <content>AccumulationRegister.УчетТрудозатрат</content>
+  <content>AccumulationRegister.ТрудозатратыПланФактические</content>
   <subsystems>УчетФинансов</subsystems>
   <subsystems>Форум</subsystems>
   <subsystems>Органайзер</subsystems>
