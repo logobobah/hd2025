@@ -1674,7 +1674,6 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
-  <dataProcessors>DataProcessor.РаботаССекретами</dataProcessors>
   <dataProcessors>DataProcessor.ИнциализацияVault</dataProcessors>
   <dataProcessors>DataProcessor.ПодключениеRDP</dataProcessors>
   <informationRegisters>InformationRegister.HTMLПредставленияСодержанияПисем</informationRegisters>

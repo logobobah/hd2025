@@ -53,6 +53,7 @@
   <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
   <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
   <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>DataProcessor.ИнциализацияVault</content>
   <subsystems>Почта</subsystems>
   <subsystems>МобильноеПриложение</subsystems>
   <subsystems>ОбменСGoogle</subsystems>
