@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d912e472-9553-4b96-8b16-7aaff6c14239">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fbd3348-ffc9-40b4-97fb-e9339e542b89">
   <producedTypes>
-    <objectType typeId="d7ef96a5-5ad5-41f1-952d-9763937c1ff0" valueTypeId="0359a642-9266-4aa4-95be-54e8cd3e7c00"/>
-    <refType typeId="2e26761a-e420-41f3-86be-52d59e593bf9" valueTypeId="3a59e1e0-fbbc-441e-b831-9bd63c48add1"/>
-    <selectionType typeId="b04b5d5f-c3fb-4724-80fc-5d677a50409e" valueTypeId="b5938a1c-8301-4d23-bcf5-628749c714fe"/>
-    <listType typeId="a2b8ea70-9ea4-4fda-8e72-28e176c2bad0" valueTypeId="8340bf00-56c6-4ab9-8b04-8413f9b2cd51"/>
-    <managerType typeId="89ec1534-b274-4712-a3ae-9d3bb949a879" valueTypeId="d3354945-eab1-4a7b-8df2-eda2d604b794"/>
+    <objectType typeId="c394de38-c5d3-4eb6-b369-1a4bc5380e0e" valueTypeId="dfa55486-2cf1-441e-a97d-b1b21f3b6f2b"/>
+    <refType typeId="4333111a-d975-48e8-823c-a1d67b217419" valueTypeId="3a8e9145-25a4-4582-9441-8664baa4969c"/>
+    <selectionType typeId="970e120a-12d5-46fa-bc2e-686c9aa0392a" valueTypeId="fce9f159-d212-4a4f-b258-9a01ee2f9103"/>
+    <listType typeId="dea136c6-5d97-4b3c-b71e-2a297cf4065a" valueTypeId="b9b1f4ba-dc18-4fc1-b521-698249f839fc"/>
+    <managerType typeId="c26d8ff4-8c86-4cd3-b59e-f5a18f880d3e" valueTypeId="7e662adf-55fd-4d09-9d03-00a940c9bb9d"/>
   </producedTypes>
-  <name>ТомаХраненияФайлов</name>
+  <name>ПравилаРазмещенияФайловВТомах</name>
   <synonym>
     <key>ru</key>
-    <value>Тома хранения файлов</value>
+    <value>Правила размещения файлов в томах</value>
   </synonym>
-  <comment>Каталоги на диске для хранения файлов</comment>
-  <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ТомаХраненияФайлов.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.ТомаХраненияФайлов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПравилаРазмещенияФайловВТомах.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПравилаРазмещенияФайловВТомах.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -79,10 +77,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <toolTip>
-      <key>ru</key>
-      <value>Наименование</value>
-    </toolTip>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -92,17 +86,12 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <toolTip>
-      <key>ru</key>
-      <value>Код</value>
-    </toolTip>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
-  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
@@ -112,10 +101,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Том хранения файлов</value>
+    <value>Правило размещения файлов в томах</value>
   </objectPresentation>
-  <hierarchical>true</hierarchical>
-  <limitLevelCount>true</limitLevelCount>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -127,9 +114,27 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ТомаХраненияФайлов.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ТомаХраненияФайлов.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="b04018b5-a74d-43c9-8519-6cc8aa23fe09">
+  <defaultObjectForm>Catalog.ПравилаРазмещенияФайловВТомах.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="debe5f52-6d2c-47bc-9aad-72d43848eca2">
+    <name>ГруппаТомов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа томов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа томов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3252e35-fa3f-4ddd-a91a-49b6b8fe1368">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -137,11 +142,13 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Описание тома</value>
+      <value>Комментарий</value>
     </toolTip>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -152,11 +159,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8f5af22e-3e73-4a4f-b91e-eccd0f5084fd">
-    <name>МаксимальныйРазмер</name>
+  <attributes uuid="8e93b827-9ed2-4e6a-b34a-2a2e4c6319c4">
+    <name>Ответственный</name>
     <synonym>
       <key>ru</key>
-      <value>Предел, МБ</value>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f5c815e-744f-4fdc-a423-e5ea5bdb501d">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -166,75 +195,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Максимальный размер всех файлов в томе в мегабайтах.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9283277f-2b75-4c3a-810a-8d4071b3afcc">
-    <name>ПолныйПутьLinux</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полный путь linux</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Полный путь в Linux</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="d03d5b18-57a2-43c0-99ea-8ad9d5788179">
-    <name>ПолныйПутьWindows</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полный путь windows</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Полный путь в UNC формате</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="c491a7fc-14f9-498a-b7dd-575dfc66878e">
-    <name>ПорядокЗаполнения</name>
-    <synonym>
-      <key>ru</key>
       <value>Порядок</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Порядок заполнения томов файлами,
-начиная с наименьшего значения.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -243,11 +204,91 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="db15f8eb-4736-4b47-9cee-3e6883f0888c">
-    <name>ФормаЭлемента</name>
+  <attributes uuid="0c1afcbf-7382-40eb-9574-d5df24ca06ab">
+    <name>ПоУмолчанию</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>По умолчанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По умолчанию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4db5a39d-a67d-4bc3-b467-d1d0c668adf4">
+    <name>ПредставлениеУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление условия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление условия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac1e0d04-67c6-4c90-a02c-08fa51af9bfc">
+    <name>Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Условие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1663c59d-5417-485b-b87e-f3ecbf3f1a0e">
+    <name>НастройкаПравилРазмещенияФайловВТомах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка правил размещения файлов в томах</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0380e1d8-69c1-4dad-83e6-e667620231b5">
+    <name>ПроверкаПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка правил</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c871c83-ebc3-475d-baae-6eba97feb8d8">
+    <name>ПроверкаПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка правила</value>
     </synonym>
     <help>
       <pages>
@@ -257,29 +298,30 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="59064eb2-2770-4f1c-96bd-801926fe68ef">
-    <name>ФормаСписка</name>
+  <forms uuid="b99d6018-b84f-44ac-bba9-dd62d48a191c">
+    <name>ФормаПравила</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Форма правила</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="df81cc63-26f2-4e66-bf0b-fd083a6a7d7b">
-    <name>УдалениеЛишнихФайловИзТома</name>
+  <forms uuid="de7e4ec2-b8e9-498d-867e-ab4ffd5b004e">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Удаление лишних файлов из тома</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="8a8848b8-345a-452d-bf95-28f9c91c7e95">
-    <name>МакетОтчета</name>
+  <templates uuid="b3273b8d-580a-4bbf-a679-a1c7465bfb58">
+    <name>Версии</name>
     <synonym>
       <key>ru</key>
-      <value>Макет отчета</value>
+      <value>Версии</value>
     </synonym>
+    <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Catalog>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4f610b83-5644-4985-88ef-540d8a0fce6e">
+  <name>s3_ХранениеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>S3 Хранение файлов</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="741377f1-8041-4957-96c2-69f15a238d24"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="448da5ed-39fd-476d-9dcd-d7e6591052d5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9f07c0cb-1737-4d44-bd28-adf8a9dc409c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e423ebd7-3848-4bf8-b49f-209fddf4c79d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="babe3f87-de47-41b8-b5db-a69675743cbb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5f83376c-ffde-46c1-9d63-96f947561611"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="97eed7de-5029-4af5-ad66-389d40db29d5"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>s3_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.s3_ОсновнаяРоль</defaultRoles>
+  <vendor>https://github.com/BlizD/</vendor>
+  <version>2024.12.15.01</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <languages uuid="b6d2c8e9-0af5-44b3-bf0d-cb4b6068981e" extendedConfigurationObject="d7454f88-b1de-49a1-866c-53b3d7e48868">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ОтметкаПоложительногоВыполненияЗадачи</styleItems>
+  <styleItems>StyleItem.ОтметкаОтрицательногоВыполненияЗадачи</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ФайлЗанятыйТекущимПользователем</styleItems>
+  <styleItems>StyleItem.ЗакрытыеНеактуальныеЗаписи</styleItems>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.ПодписанЗашифрованЗаголовок</commonPictures>
+  <roles>Role.s3_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.s3_API</commonModules>
+  <commonModules>CommonModule.s3_КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ФайловыеФункции</commonModules>
+  <commonModules>CommonModule.ФайловыеФункцииСлужебный</commonModules>
+  <commonModules>CommonModule.РаботаСФайлами</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиСлужебный</commonModules>
+  <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.ПравилаРазмещенияФайловВТомах</catalogs>
+  <enums>Enum.s3_ТипыХранилищ</enums>
+  <reports>Report.ПроверкаЦелостностиТома</reports>
+</mdclass:Configuration>

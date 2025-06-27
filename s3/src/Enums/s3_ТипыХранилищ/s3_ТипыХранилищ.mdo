@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713001d8-7f14-4336-bbee-0fda8ae088fd">
+  <producedTypes>
+    <refType typeId="81b100db-619a-4fc3-af81-50d15d881ce9" valueTypeId="090ed2b1-30c7-485f-8029-2a13ab4a5355"/>
+    <listType typeId="b0e811b4-e8bd-4051-8ea5-ee07f03b95e8" valueTypeId="a149e1a2-5232-4647-af14-4cd681c37271"/>
+    <managerType typeId="39f2ff3d-2349-4907-b9ab-df2f3bf66ea1" valueTypeId="38f19d0e-409e-49b1-94b8-c70883ee8ddd"/>
+  </producedTypes>
+  <name>s3_ТипыХранилищ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы хранилищ</value>
+  </synonym>
+  <comment>// + #s3 Иванов А.Б. 12.01.2021</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3e6a278-37f0-44eb-a2cf-ea1e7403c81e">
+    <name>СетеваяПапка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевая папка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcc9769e-70a9-421d-886e-2321143f2580">
+    <name>ОбъектноеS3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объектное s3</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

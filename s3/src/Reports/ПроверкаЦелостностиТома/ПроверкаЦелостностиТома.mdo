@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="316e8ce6-8353-4fa4-a044-d12866233612" extendedConfigurationObject="43e37533-ed38-4000-a387-5749f8d9aaf3">
+  <producedTypes>
+    <objectType typeId="8d336fd9-4260-40f3-b4f9-c30f1527f3df" valueTypeId="6ac391b0-f430-452f-b0bc-77e2b57673bb"/>
+    <managerType typeId="45343477-70e8-4350-83bc-cdeeba18f557" valueTypeId="9af365a2-abbb-4861-8948-953e37dd7e92"/>
+  </producedTypes>
+  <name>ПроверкаЦелостностиТома</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <mainDataCompositionSchema>Extended</mainDataCompositionSchema>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <mainDataCompositionSchema>Report.ПроверкаЦелостностиТома.Template.s3_ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bac90881-31c1-45d8-8086-2611a575b6e2">
+    <name>s3_ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>S3 основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

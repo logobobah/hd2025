@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd60892c-701d-489b-8085-2490a3c1a131">
+  <name>s3_API</name>
+  <synonym>
+    <key>ru</key>
+    <value>S3 API</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

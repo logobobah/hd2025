@@ -15,9 +15,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
-  <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>ИП Новоселов Е.В.</vendor>
   <version>1.1.8.1</version>
   <defaultReportForm>CommonForm.ФормаОтчетаСУЗ</defaultReportForm>
