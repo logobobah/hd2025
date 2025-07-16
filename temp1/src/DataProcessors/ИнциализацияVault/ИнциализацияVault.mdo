@@ -29,6 +29,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="dbceb787-630b-4550-95b0-9292dc6f6464">
+    <name>ФормаРаспечатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма распечатки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="ca50f7df-010c-4f2d-b30e-132dd290844b">
     <name>ТабличныйМакет</name>
     <synonym>

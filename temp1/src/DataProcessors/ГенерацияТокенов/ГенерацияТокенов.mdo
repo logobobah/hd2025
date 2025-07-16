@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9edfe801-a3bf-47ba-9663-1e9b5de2bf15">
+  <producedTypes>
+    <objectType typeId="3d356537-1785-48f6-8b15-6683a1994d47" valueTypeId="bad7ab8f-465a-4e73-8873-fc3153082679"/>
+    <managerType typeId="78f70757-dce7-4e2b-9f51-aff6ece70714" valueTypeId="56ec0826-003d-442b-8b16-7bfc82af4d9e"/>
+  </producedTypes>
+  <name>ГенерацияТокенов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация токенов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияТокенов.Form.Форма1</defaultForm>
+  <forms uuid="8298e0e3-acbc-4ea5-b4ab-8e12d0fa9ce5">
+    <name>Форма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -610,6 +610,7 @@
   <sessionParameters>SessionParameter.ТипыВладельцевНастроекПрав</sessionParameters>
   <sessionParameters>SessionParameter.ТипыЗначенийДоступаСГруппами</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
+  <sessionParameters>SessionParameter.Токен</sessionParameters>
   <roles>Role.АвтоматизацияДобавлениеИзменениеСценариев</roles>
   <roles>Role.АвтоматизацияЧтениеСценариев</roles>
   <roles>Role.АдминистраторСистемы</roles>
@@ -1676,6 +1677,7 @@
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
   <dataProcessors>DataProcessor.ИнциализацияVault</dataProcessors>
   <dataProcessors>DataProcessor.ПодключениеRDP</dataProcessors>
+  <dataProcessors>DataProcessor.ГенерацияТокенов</dataProcessors>
   <informationRegisters>InformationRegister.HTMLПредставленияСодержанияПисем</informationRegisters>
   <informationRegisters>InformationRegister.АвтоматизацияЖурнал</informationRegisters>
   <informationRegisters>InformationRegister.АвтоматическиеОтветыПоАдресам</informationRegisters>
