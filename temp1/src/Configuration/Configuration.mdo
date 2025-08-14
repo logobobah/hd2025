@@ -1019,6 +1019,7 @@
   <commonModules>CommonModule.кт_HTTPОбменСБухгалтерией</commonModules>
   <commonModules>CommonModule.VK</commonModules>
   <commonModules>CommonModule.ОтправкаОтчетаКонтрольСрокаПодписок</commonModules>
+  <commonModules>CommonModule.УстановкаТокенаВПараметрыКлиент</commonModules>
   <exchangePlans>ExchangePlan.Мобильный</exchangePlans>
   <exchangePlans>ExchangePlan.МобильныйРегистрацияВсехДанных</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменСGoogleCalendar</exchangePlans>
